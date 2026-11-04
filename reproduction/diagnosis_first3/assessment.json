@@ -1,0 +1,439 @@
+{
+  "instances": [
+    {
+      "instance": 301,
+      "session": "7424930f152545f48aaed0c229b6be79",
+      "result": {
+        "status": "completed",
+        "success": false,
+        "steps": 13718,
+        "elapsed_seconds": 1311.925930847996,
+        "source_changed_during_run": false
+      },
+      "Q": 0.0,
+      "heads": {
+        "action_original": {
+          "calls": 429,
+          "deviations": 0
+        },
+        "action_regenerated": {
+          "calls": 0,
+          "deviations": 0
+        },
+        "planning_original": {
+          "calls": 429,
+          "deviations": 0
+        },
+        "planning_reselected": {
+          "calls": 0,
+          "deviations": 0
+        },
+        "execution": {
+          "calls": 429,
+          "deviations": 64
+        }
+      },
+      "reference_calls": 64,
+      "selected_candidates": [
+        {
+          "index": 10,
+          "count": 292,
+          "id": "plan:56f18c334d3642ea830bb0df",
+          "skill_ids": [
+            2
+          ],
+          "targets": [
+            [
+              "hotdog.n.02_1",
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": [
+            "hotdog.n.02_1"
+          ]
+        },
+        {
+          "index": 22,
+          "count": 79,
+          "id": "plan:fc801e94a2154f989550e619",
+          "skill_ids": [
+            2
+          ],
+          "targets": [
+            [
+              "hotdog.n.02_2",
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": [
+            "hotdog.n.02_2"
+          ]
+        },
+        {
+          "index": 13,
+          "count": 39,
+          "id": "plan:9deb597f898b3e7aaddbf660",
+          "skill_ids": [
+            10
+          ],
+          "targets": [
+            [
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": []
+        },
+        {
+          "index": 0,
+          "count": 19,
+          "id": "plan:01a5a711e6b77bb59e8df0f8",
+          "skill_ids": [
+            1
+          ],
+          "targets": [
+            [
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": []
+        }
+      ],
+      "feedback_counts": {
+        "execution_deviation": 64
+      },
+      "reliable_grasp_loss_records": [],
+      "required_preserved_grasps": {
+        "[]": 168,
+        "['hotdog.n.02_1']": 262
+      },
+      "reference_token_relative_rms_median": {
+        "local": 0.02588837221264839,
+        "subgoal": 0.00273797195404768
+      },
+      "last_selected": {
+        "id": "plan:56f18c334d3642ea830bb0df",
+        "skill_ids": [
+          2
+        ],
+        "targets": [
+          [
+            "hotdog.n.02_1",
+            "electric_refrigerator.n.01_1"
+          ]
+        ],
+        "manipulating": [
+          "hotdog.n.02_1"
+        ]
+      }
+    },
+    {
+      "instance": 302,
+      "session": "21cc81bf4ff94468be8c7a822d8915d3",
+      "result": {
+        "status": "completed",
+        "success": false,
+        "steps": 13718,
+        "elapsed_seconds": 1318.347533240987,
+        "source_changed_during_run": false
+      },
+      "Q": 0.0,
+      "heads": {
+        "action_original": {
+          "calls": 429,
+          "deviations": 0
+        },
+        "action_regenerated": {
+          "calls": 0,
+          "deviations": 0
+        },
+        "planning_original": {
+          "calls": 429,
+          "deviations": 0
+        },
+        "planning_reselected": {
+          "calls": 0,
+          "deviations": 0
+        },
+        "execution": {
+          "calls": 429,
+          "deviations": 18
+        }
+      },
+      "reference_calls": 18,
+      "selected_candidates": [
+        {
+          "index": 10,
+          "count": 180,
+          "id": "plan:56f18c334d3642ea830bb0df",
+          "skill_ids": [
+            2
+          ],
+          "targets": [
+            [
+              "hotdog.n.02_1",
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": [
+            "hotdog.n.02_1"
+          ]
+        },
+        {
+          "index": 22,
+          "count": 134,
+          "id": "plan:fc801e94a2154f989550e619",
+          "skill_ids": [
+            2
+          ],
+          "targets": [
+            [
+              "hotdog.n.02_2",
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": [
+            "hotdog.n.02_2"
+          ]
+        },
+        {
+          "index": 13,
+          "count": 98,
+          "id": "plan:9deb597f898b3e7aaddbf660",
+          "skill_ids": [
+            10
+          ],
+          "targets": [
+            [
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": []
+        },
+        {
+          "index": 0,
+          "count": 17,
+          "id": "plan:01a5a711e6b77bb59e8df0f8",
+          "skill_ids": [
+            1
+          ],
+          "targets": [
+            [
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": []
+        }
+      ],
+      "feedback_counts": {
+        "execution_deviation": 17,
+        "execution_failure": 1
+      },
+      "reliable_grasp_loss_records": [
+        {
+          "request_id": 67,
+          "evidence": {
+            "scope": "local_executed_grasp_preservation_contract",
+            "reliable_local_failure": true,
+            "verified_local_execution_failure": true,
+            "status": "verified_local_execution_failure",
+            "required_preserved_grasps": [
+              "electric_refrigerator.n.01_1"
+            ],
+            "selected_candidate": "plan:9deb597f898b3e7aaddbf660",
+            "contract_source": "actual_selected_frozen_train_candidate_plus_actual_train_human_annotation_descriptions",
+            "contract_semantics_verified": true,
+            "contract_semantics_sha256": "955f3e08951c4d09eecf1ef5215681f955d1bfb0869549515556984476430902",
+            "previous_request_id": 66,
+            "executed_steps": 32,
+            "start_time": 70.4,
+            "end_time": 71.46666666666667,
+            "losses": [
+              {
+                "subject": "electric_refrigerator.n.01_1",
+                "predicate": "preserve_grasp",
+                "before": {
+                  "value": true,
+                  "timestamp": 70.4,
+                  "source": "current_oracle_robot_is_grasping",
+                  "hand_values": {
+                    "robot:ee:left": false,
+                    "robot:ee:right": true
+                  }
+                },
+                "after": {
+                  "value": false,
+                  "timestamp": 71.46666666666667,
+                  "source": "current_oracle_robot_is_grasping",
+                  "hand_values": {
+                    "robot:ee:left": false,
+                    "robot:ee:right": false
+                  }
+                }
+              }
+            ],
+            "source": "fresh_actual_grasp_truth_before_and_after_exact_acknowledged_prefix",
+            "task_failure": null,
+            "Q": null,
+            "independent_of_density_calibration": true
+          }
+        }
+      ],
+      "required_preserved_grasps": {
+        "[]": 429,
+        "['electric_refrigerator.n.01_1']": 1
+      },
+      "reference_token_relative_rms_median": {
+        "local": 0.029442336410284042,
+        "subgoal": 0.0030932098161429167
+      },
+      "last_selected": {
+        "id": "plan:56f18c334d3642ea830bb0df",
+        "skill_ids": [
+          2
+        ],
+        "targets": [
+          [
+            "hotdog.n.02_1",
+            "electric_refrigerator.n.01_1"
+          ]
+        ],
+        "manipulating": [
+          "hotdog.n.02_1"
+        ]
+      }
+    },
+    {
+      "instance": 303,
+      "session": "634284ddcfe84950a2eb7ecd23dea416",
+      "result": {
+        "status": "completed",
+        "success": false,
+        "steps": 13718,
+        "elapsed_seconds": 1305.8974934889993,
+        "source_changed_during_run": false
+      },
+      "Q": 0.0,
+      "heads": {
+        "action_original": {
+          "calls": 429,
+          "deviations": 0
+        },
+        "action_regenerated": {
+          "calls": 0,
+          "deviations": 0
+        },
+        "planning_original": {
+          "calls": 429,
+          "deviations": 0
+        },
+        "planning_reselected": {
+          "calls": 0,
+          "deviations": 0
+        },
+        "execution": {
+          "calls": 429,
+          "deviations": 35
+        }
+      },
+      "reference_calls": 35,
+      "selected_candidates": [
+        {
+          "index": 10,
+          "count": 332,
+          "id": "plan:56f18c334d3642ea830bb0df",
+          "skill_ids": [
+            2
+          ],
+          "targets": [
+            [
+              "hotdog.n.02_1",
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": [
+            "hotdog.n.02_1"
+          ]
+        },
+        {
+          "index": 13,
+          "count": 53,
+          "id": "plan:9deb597f898b3e7aaddbf660",
+          "skill_ids": [
+            10
+          ],
+          "targets": [
+            [
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": []
+        },
+        {
+          "index": 22,
+          "count": 29,
+          "id": "plan:fc801e94a2154f989550e619",
+          "skill_ids": [
+            2
+          ],
+          "targets": [
+            [
+              "hotdog.n.02_2",
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": [
+            "hotdog.n.02_2"
+          ]
+        },
+        {
+          "index": 0,
+          "count": 15,
+          "id": "plan:01a5a711e6b77bb59e8df0f8",
+          "skill_ids": [
+            1
+          ],
+          "targets": [
+            [
+              "electric_refrigerator.n.01_1"
+            ]
+          ],
+          "manipulating": []
+        }
+      ],
+      "feedback_counts": {
+        "execution_deviation": 35
+      },
+      "reliable_grasp_loss_records": [],
+      "required_preserved_grasps": {
+        "[]": 430
+      },
+      "reference_token_relative_rms_median": {
+        "local": 0.024815738201141357,
+        "subgoal": 0.002359314588829875
+      },
+      "last_selected": {
+        "id": "plan:56f18c334d3642ea830bb0df",
+        "skill_ids": [
+          2
+        ],
+        "targets": [
+          [
+            "hotdog.n.02_1",
+            "electric_refrigerator.n.01_1"
+          ]
+        ],
+        "manipulating": [
+          "hotdog.n.02_1"
+        ]
+      }
+    }
+  ],
+  "assessment": "No observed positive task-level contribution in the first3 cases. Latest0/3 versus oldF5000 same instances1/3. Critic/retrieval assistance active117 times, no case recovered; all remain at food-pickup stage.",
+  "online_auxiliary_heads": false,
+  "oldF5000_paired_results": {
+    "301": false,
+    "302": true,
+    "303": false
+  },
+  "source": "read-only sealed301-303 task_progress and original results; no new rollout or ablation"
+}
