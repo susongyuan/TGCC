@@ -1,0 +1,18 @@
+{
+  "status": "metadata_only_no_cuda",
+  "model_tensor_bytes": 16651385632,
+  "named_optimizer_tensor_bytes": 3596321872,
+  "model_parameters_including_buffers": 4162846408,
+  "model_bytes_by_dtype": {
+    "torch.float32": 16651385632
+  },
+  "parameters_with_adam_state": 449540056,
+  "fp32_gradient_bytes": 1798160224,
+  "static_state_plus_gradients_unsharded_gib": 20.53181429207325,
+  "limits": "This is DCP tensor inventory, not measured single/dual GPU peak. Does not include activations, collective buffers, CUDA context, caching allocator or retrieval encoder; shared/tied tensors may affect layout.",
+  "current_admission_accepts_world_sizes": [
+    3,
+    4
+  ],
+  "single_dual_requires": "Separate source candidate and real same-quality1/2-rank data/gradient/checkpoint-resume audit. Existing frozen source not changed, no training or benchmark launched."
+}
