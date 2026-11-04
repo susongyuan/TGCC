@@ -1,0 +1,43 @@
+{
+  "Songyuan666/TC-pi0.5": {
+    "revision": "56a3301773c239d4a3fc6afe711efd3a23c4226c",
+    "task": "cook_hot_dogs",
+    "task_label": "hotdog",
+    "weight_sha256": {
+      "cook_hot_dogs/step5000/model.safetensors": "80436905542b0ce75d77d17cf908b29846f5497b58189177d406daebdd3e1239",
+      "pi0.5-behaviour-base/model.safetensors": "7e257666d835f6af701de493676a6c86a0421b2efc737a0f911d782b7a09f635"
+    },
+    "base_scope": "pi0.5-behaviour-base is unchanged50-task PT50; cook_hot_dogs/step5000 is hotdog-only fine-tuning"
+  },
+  "Songyuan666/TGCC-P": {
+    "revision": "16a312f0facef70c2846d3a5973b515e5f7595cc",
+    "task": "cook_hot_dogs",
+    "task_label": "hotdog",
+    "weight_sha256": {
+      "checkpoint/distribution.safetensors": "9c73b9b0f537f5d34c32dd28db64987a1328265ae8875b81499f5e629f233412",
+      "checkpoint/student.safetensors": "1e7aa7923cf7e81bcf931dd232e4033769c05e095da95dd0d39f72d86b9304fe",
+      "retrieval_library/vision_encoder.safetensors": "fc5f49d21e016eb4759fb80a1e230fc06d493cbf57d8cbf077f0ad6c9e93bf12"
+    }
+  },
+  "Songyuan666/TGCC-F-hotdog-step05000": {
+    "revision": "747295a3d5d2d0624aa30485fa2a4b3268e71807",
+    "task": "cook_hot_dogs",
+    "task_label": "hotdog",
+    "weight_sha256": {
+      "checkpoint/distribution.safetensors": "83e7d04b663ee1ea923efb45bebdab4fe5e22dfe12ceeefd9b328f3286276470",
+      "checkpoint/student.safetensors": "66bc1f7f89a77fbd5830bfdb9fab2f6ecd958cdaf89e0f26c25a9e1f8ae8e920",
+      "retrieval_library/vision_encoder.safetensors": "fc5f49d21e016eb4759fb80a1e230fc06d493cbf57d8cbf077f0ad6c9e93bf12"
+    }
+  },
+  "Songyuan666/TGCC-hotdog-v3fast-step02153": {
+    "revision": "2592a44cd90dd7ba4e668efe6dff0bf131eeedaa",
+    "task": "cook_hot_dogs",
+    "task_label": "hotdog",
+    "weight_sha256": {
+      "checkpoint/distribution.safetensors": "9a4c9fe6bb7d7603c74d31e1825f9e4b7b5c5fb395e150da7b49a9495c51df2e",
+      "checkpoint/student.safetensors": "31b9d036718bef5d35d2780feb8ecfa60e6c90b0a7f77a77ccfa2aa2251b9118",
+      "checkpoint/training_auxiliary.safetensors": "58e2028dfbd47cda837cc0e45ef367a6b408e135475f5ae2f4805b6264f814e5",
+      "retrieval_library/vision_encoder.safetensors": "fc5f49d21e016eb4759fb80a1e230fc06d493cbf57d8cbf077f0ad6c9e93bf12"
+    }
+  }
+}

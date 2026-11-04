@@ -29,11 +29,7 @@ python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python tools/prepare_env.py
-python - <<'PY'
-from huggingface_hub import snapshot_download
-snapshot_download('Songyuan666/TGCC-hotdog-v3fast-step02153', local_dir='weights/hotdog-v3fast')
-snapshot_download('Songyuan666/TC-pi0.5', local_dir='weights/tc-base')
-PY
+python tools/download_weights.py --output weights
 python tools/verify.py --assets weights/hotdog-v3fast
 CUDA_VISIBLE_DEVICES=0 python tools/serve_hotdog.py \
   --assets weights/hotdog-v3fast --base-assets weights/tc-base \
