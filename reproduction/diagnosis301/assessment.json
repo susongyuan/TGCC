@@ -1,0 +1,130 @@
+{
+  "session": "7424930f152545f48aaed0c229b6be79",
+  "requests": 429,
+  "terminal_assessments": 1,
+  "heads": {
+    "action_original": {
+      "n": 429,
+      "calibrated": 429,
+      "deviations": 0,
+      "thresholds": [
+        1.1020252704620361
+      ]
+    },
+    "action_regenerated": {
+      "n": 0,
+      "calibrated": 0,
+      "deviations": 0,
+      "thresholds": []
+    },
+    "planning_original": {
+      "n": 429,
+      "calibrated": 429,
+      "deviations": 0,
+      "thresholds": [
+        3.1678054332733154
+      ]
+    },
+    "planning_reselected": {
+      "n": 0,
+      "calibrated": 0,
+      "deviations": 0,
+      "thresholds": []
+    },
+    "execution": {
+      "n": 429,
+      "calibrated": 428,
+      "deviations": 64,
+      "thresholds": [
+        0.49284058809280396
+      ]
+    }
+  },
+  "selected": [
+    {
+      "index": 0,
+      "count": 19,
+      "id": "plan:01a5a711e6b77bb59e8df0f8",
+      "skill_ids": [
+        1
+      ],
+      "targets": [
+        [
+          "electric_refrigerator.n.01_1"
+        ]
+      ],
+      "manipulating": []
+    },
+    {
+      "index": 10,
+      "count": 292,
+      "id": "plan:56f18c334d3642ea830bb0df",
+      "skill_ids": [
+        2
+      ],
+      "targets": [
+        [
+          "hotdog.n.02_1",
+          "electric_refrigerator.n.01_1"
+        ]
+      ],
+      "manipulating": [
+        "hotdog.n.02_1"
+      ]
+    },
+    {
+      "index": 13,
+      "count": 39,
+      "id": "plan:9deb597f898b3e7aaddbf660",
+      "skill_ids": [
+        10
+      ],
+      "targets": [
+        [
+          "electric_refrigerator.n.01_1"
+        ]
+      ],
+      "manipulating": []
+    },
+    {
+      "index": 22,
+      "count": 79,
+      "id": "plan:fc801e94a2154f989550e619",
+      "skill_ids": [
+        2
+      ],
+      "targets": [
+        [
+          "hotdog.n.02_2",
+          "electric_refrigerator.n.01_1"
+        ]
+      ],
+      "manipulating": [
+        "hotdog.n.02_2"
+      ]
+    }
+  ],
+  "feedback_counts": {
+    "execution_deviation": 64
+  },
+  "references": 64,
+  "planning_deviation_reselection_count": 0,
+  "verified_grasp_loss_events": 0,
+  "preserved_grasp_required_segments": 262,
+  "reference_token_relative_rms_median": {
+    "local": 0.02588837221264839,
+    "subgoal": 0.00273797195404768
+  },
+  "reference_distance": {
+    "min": 0.7698142528533936,
+    "median": 1.1787406206130981,
+    "max": 4160.31005859375
+  },
+  "auxiliary_heads_deployed": false,
+  "causal_limitations": [
+    "No video/raw RGB-D or serialized full observation trace retained for this no-video suite. Specific collision, contact or grasp-alignment cause cannot be established.",
+    "No matched no-reference/no-critic counterfactual. Trigger counts and nonzero token injection are not evidence of improved success.",
+    "Do not attribute failure solely to stopping at2153 or infer full20 result from instance301."
+  ],
+  "snapshot_sha256": "24e44b2848548d585cfc0e4e168f1d19a024722fea59b311e12d530598305654"
+}
