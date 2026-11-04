@@ -1,0 +1,119 @@
+{
+  "time": "2026-11-04T22:58:07.587200+08:00",
+  "training": {
+    "logged_update_samples": {
+      "n": 216,
+      "total_seconds": 14043.616830073297,
+      "mean_seconds": 65.01674458367268,
+      "median_seconds": 59.99605342373252,
+      "p95_seconds": 87.33468925207853,
+      "min_seconds": 48.994827799499035,
+      "max_seconds": 98.26429380476475
+    },
+    "last5_logged": {
+      "n": 5,
+      "total_seconds": 404.95885183662176,
+      "mean_seconds": 80.99177036732435,
+      "median_seconds": 84.20305971801281,
+      "p95_seconds": 94.08584025502205,
+      "min_seconds": 66.23776237666607,
+      "max_seconds": 94.08584025502205
+    },
+    "latest_logged_update": 2150,
+    "actual_stopped_update": 2153,
+    "nccl_communication_seconds": null,
+    "nccl_fraction": null,
+    "limitation": "Formal v3fast run has no per-step collective CUDA timing/profiler trace. seconds are logged update samples every10 updates, not an all-step ledger. GPU contention and synchronization waiting cannot be separated retrospectively.",
+    "historical_contention_sample": {
+      "source": "v3fast_20261102/gpu_probe_20261103; step940-950; 140 samples x3s",
+      "own_sm_percent": {
+        "GPU0": 36.1,
+        "GPU2": 29.1,
+        "GPU3": 69.9,
+        "GPU6": 26.1
+      },
+      "step_seconds": [
+        71.5,
+        73.1
+      ],
+      "causal_limit": "Historical shared-compute snapshot, not a direct communication-time measurement."
+    }
+  },
+  "evaluation": {
+    "scope": "formal20 only;320-step preflight excluded",
+    "observed_requests": 8580,
+    "fresh_unrecovered_requests": 8580,
+    "query": {
+      "n": 8580,
+      "total_seconds": 14347.52368774821,
+      "mean_seconds": 1.6722055580126118,
+      "median_seconds": 1.4514660425047623,
+      "p95_seconds": 3.3475558630016167,
+      "min_seconds": 0.7359071539976867,
+      "max_seconds": 10.726855148997856
+    },
+    "server_inference": {
+      "n": 8580,
+      "total_seconds": 8936.802803300321,
+      "mean_seconds": 1.0415854083100606,
+      "median_seconds": 0.9671260491013527,
+      "p95_seconds": 1.5625615641474724,
+      "min_seconds": 0.5035284534096718,
+      "max_seconds": 3.806672379374504
+    },
+    "encode": {
+      "n": 8580,
+      "total_seconds": 435.4023856426502,
+      "mean_seconds": 0.050746198792849674,
+      "median_seconds": 0.05067784949642373,
+      "p95_seconds": 0.054278010997222736,
+      "min_seconds": 0.04397952799627092,
+      "max_seconds": 0.07071815599920228
+    },
+    "outside_reported_inference": {
+      "n": 8580,
+      "total_seconds": 5410.720884447888,
+      "mean_seconds": 0.6306201497025511,
+      "median_seconds": 0.351345845774631,
+      "p95_seconds": 2.2540138642361853,
+      "min_seconds": 0.16242903022794053,
+      "max_seconds": 9.743443054583622
+    },
+    "outside_inference_and_encode": {
+      "n": 8580,
+      "total_seconds": 4975.318498805238,
+      "mean_seconds": 0.5798739509097014,
+      "median_seconds": 0.30099042559595546,
+      "p95_seconds": 2.2021859076048713,
+      "min_seconds": 0.11358046722307336,
+      "max_seconds": 9.69207594258478
+    },
+    "upload_bytes": 1115497516,
+    "recoveries": 0,
+    "limitation": "Residual includes upload/download, SSH/WS, server handling, serialization/decoding and queueing outside the reported inference timer; it is not pure network or NCCL time. Cached/recovered requests excluded from residual."
+  },
+  "next_training": "No training started. Compare quiet1GPU and2GPU at equal effective batch48, data/targets/8-block memory/precision; explicitly measure exposed NCCL wait and overlapping collective CUDA kernels. Current shared4GPU speed alone does not establish2GPU will be faster.",
+  "hardware_topology": {
+    "source": "nvidia-smi topo -m; read-only2026-11-04",
+    "all_gpu_pairs": "NV18",
+    "measured_bandwidth_or_collective_seconds": null
+  },
+  "next_training_capacity": {
+    "status": "metadata_only_no_cuda",
+    "model_tensor_bytes": 16651385632,
+    "named_optimizer_tensor_bytes": 3596321872,
+    "model_parameters_including_buffers": 4162846408,
+    "model_bytes_by_dtype": {
+      "torch.float32": 16651385632
+    },
+    "parameters_with_adam_state": 449540056,
+    "fp32_gradient_bytes": 1798160224,
+    "static_state_plus_gradients_unsharded_gib": 20.53181429207325,
+    "limits": "This is DCP tensor inventory, not measured single/dual GPU peak. Does not include activations, collective buffers, CUDA context, caching allocator or retrieval encoder; shared/tied tensors may affect layout.",
+    "current_admission_accepts_world_sizes": [
+      3,
+      4
+    ],
+    "single_dual_requires": "Separate source candidate and real same-quality1/2-rank data/gradient/checkpoint-resume audit. Existing frozen source not changed, no training or benchmark launched."
+  }
+}

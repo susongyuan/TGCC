@@ -1,6 +1,6 @@
 # TGCC — hotdog (`cook_hot_dogs`)
 
-Three-graph conditioning, success-distribution scoring and reference-conditioned π0.5 action generation for the BEHAVIOR **hotdog** task. The latest checkpoint is **v3fast step02153**, stopped by the user on 2026-11-04 before the planned 4000 joint updates. Its independent 20-instance evaluation is pending. No new success rate is claimed.
+Three-graph conditioning, success-distribution scoring and reference-conditioned π0.5 action generation for the BEHAVIOR **hotdog** task. The latest checkpoint is **v3fast step02153**, stopped by the user on 2026-11-04 before the planned 4000 joint updates. Its independent20-instance evaluation completed: **0/20 successes, mean officialQ=0.0000**.
 
 The vision tower/projector and PaliGemma VLM parameters were **frozen** in this run. ActionExpert, action I/O, graphs, semantic/memory modules, scoring heads, retrieval adapter and training auxiliary heads were updated. The independent retrieval encoder stays frozen. This is not the earlier fully unfrozen TGCC-F run. There is no teacher–student distillation; `student` is an implementation member name.
 
@@ -9,7 +9,7 @@ The vision tower/projector and PaliGemma VLM parameters were **frozen** in this 
 |[TC-π0.5](https://huggingface.co/Songyuan666/TC-pi0.5)|hotdog fine-tuning; separate unchanged50-task PT50 base|4970 formal×48, selected cumulative step5000|9/20, meanQ .5000|
 |[TGCC-P](https://huggingface.co/Songyuan666/TGCC-P)|hotdog|1000 critic warmup+4708 partial joint; critic5708|10/20, meanQ .5000|
 |[TGCC-F-hotdog-step05000](https://huggingface.co/Songyuan666/TGCC-F-hotdog-step05000)|hotdog|5000 fully unfrozen joint; inherited critic5708→10708|11/20, meanQ .5500|
-|[TGCC-hotdog-v3fast-step02153](https://huggingface.co/Songyuan666/TGCC-hotdog-v3fast-step02153)|hotdog|2153 joint; vision/VLM frozen; critic2656→4809; policy source10000→12153|Pending|
+|[TGCC-hotdog-v3fast-step02153](https://huggingface.co/Songyuan666/TGCC-hotdog-v3fast-step02153)|hotdog|2153 joint; vision/VLM frozen; critic2656→4809; policy source10000→12153|0/20, meanQ 0.0000|
 
 These are different checkpoints and recipes; results are not interchangeable. All comparison suites use instances301–320, action seed42, environment seed0 and official success/Q. TC/TGCC use task-scoped **Oracle graphs** plus RGB. PT50 is the unchanged multi-task RGB baseline, not hotdog-only fine-tuning. No unfamiliar-task generalization is established. Historical source and model limitations remain in each pinned release.
 

@@ -1,0 +1,128 @@
+{
+  "time": "2026-11-04T14:58:14.015531+08:00",
+  "status": "passed",
+  "returncode": 0,
+  "physical_steps": 320,
+  "official_task_score": false,
+  "video": false,
+  "result_status": "diagnostic_preflight_completed",
+  "native_controller_attestation": {
+    "schema": "tgcc.native_controller_limits.v1",
+    "status": "passed",
+    "controllers": {
+      "base": {
+        "controller": "HolonomicBaseJointController",
+        "source_file": "/home/user/Robotic/project2/third_party/BEHAVIOR-1K-isaac6/OmniGibson/omnigibson/controllers/holonomic_base_joint_controller.py",
+        "source_sha256": "e4f80607fb6afec2528ecb430128f4d90a1faf97eaa8a9f9b1e182d537c2ce74",
+        "native_input_clipping_verified": true,
+        "output_lower": [
+          -0.75,
+          -0.75,
+          -1.0
+        ],
+        "output_upper": [
+          0.75,
+          0.75,
+          1.0
+        ]
+      },
+      "trunk": {
+        "controller": "JointController",
+        "source_file": "/home/user/Robotic/project2/third_party/BEHAVIOR-1K-isaac6/OmniGibson/omnigibson/controllers/joint_controller.py",
+        "source_sha256": "071564563090ac602f4e9c9051d3f1de8b44f14a9fc9c93e583157c792086242",
+        "joint_target_clipping_verified": true,
+        "lower": [
+          -1.1344999074935913,
+          -2.7924997806549072,
+          -1.8325998783111572,
+          -3.054299831390381
+        ],
+        "upper": [
+          1.8325998783111572,
+          2.5306997299194336,
+          1.5707999467849731,
+          3.054299831390381
+        ]
+      },
+      "arm_left": {
+        "controller": "JointController",
+        "source_file": "/home/user/Robotic/project2/third_party/BEHAVIOR-1K-isaac6/OmniGibson/omnigibson/controllers/joint_controller.py",
+        "source_sha256": "071564563090ac602f4e9c9051d3f1de8b44f14a9fc9c93e583157c792086242",
+        "joint_target_clipping_verified": true,
+        "lower": [
+          -4.4506001472473145,
+          -0.1745000034570694,
+          -2.3561956882476807,
+          -2.0943996906280518,
+          -2.3561956882476807,
+          -1.0471980571746826,
+          -1.5707999467849731
+        ],
+        "upper": [
+          1.309000015258789,
+          3.1415998935699463,
+          2.3561956882476807,
+          0.3490999639034271,
+          2.3561956882476807,
+          1.0471980571746826,
+          1.5707999467849731
+        ]
+      },
+      "arm_right": {
+        "controller": "JointController",
+        "source_file": "/home/user/Robotic/project2/third_party/BEHAVIOR-1K-isaac6/OmniGibson/omnigibson/controllers/joint_controller.py",
+        "source_sha256": "071564563090ac602f4e9c9051d3f1de8b44f14a9fc9c93e583157c792086242",
+        "joint_target_clipping_verified": true,
+        "lower": [
+          -4.4506001472473145,
+          -3.1415998935699463,
+          -2.3561956882476807,
+          -2.0943996906280518,
+          -2.3561956882476807,
+          -1.0471980571746826,
+          -1.5707999467849731
+        ],
+        "upper": [
+          1.309000015258789,
+          0.1745000034570694,
+          2.3561956882476807,
+          0.3490999639034271,
+          2.3561956882476807,
+          1.0471980571746826,
+          1.5707999467849731
+        ]
+      },
+      "gripper_left": {
+        "controller": "MultiFingerGripperController",
+        "source_file": "/home/user/Robotic/project2/third_party/BEHAVIOR-1K-isaac6/OmniGibson/omnigibson/controllers/multi_finger_gripper_controller.py",
+        "source_sha256": "dad60798c9df2a2d0f3a2d1489e6925206de1b8c4ab79586296ae9695a0ab4b3",
+        "native_input_clipping_verified": true,
+        "output_lower": [
+          0.0
+        ],
+        "output_upper": [
+          0.05000000074505806
+        ]
+      },
+      "gripper_right": {
+        "controller": "MultiFingerGripperController",
+        "source_file": "/home/user/Robotic/project2/third_party/BEHAVIOR-1K-isaac6/OmniGibson/omnigibson/controllers/multi_finger_gripper_controller.py",
+        "source_sha256": "dad60798c9df2a2d0f3a2d1489e6925206de1b8c4ab79586296ae9695a0ab4b3",
+        "native_input_clipping_verified": true,
+        "output_lower": [
+          0.0
+        ],
+        "output_upper": [
+          0.05000000074505806
+        ]
+      }
+    },
+    "physics_steps_used": 0,
+    "commands_dispatched_by_check": 0,
+    "scope": "live controller input and absolute joint target clipping; not collision or task success verification",
+    "client_extension_sha256": "13e20e9070bced4c1fb61a4777ea990092b9b9f87e2595ffc26b481eccb9fbe2"
+  },
+  "weight_sha256": "590a103323ee702b57c4eee84f2e708335ca2cbacc5ed247b37ffc490a2dc641",
+  "final_metadata_sha256": "0e071161f9492b299a1c56acf49ded0ad435aeff56f2ea7e95ff6adbaa3c0d34",
+  "readiness_sha256": "557c486ef5453b3188dc19db7ae183dc9fbee2beb1299f456202f9b5a4ff74b8"
+}

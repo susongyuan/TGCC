@@ -30,7 +30,7 @@
     }
   },
   "Songyuan666/TGCC-hotdog-v3fast-step02153": {
-    "revision": "2592a44cd90dd7ba4e668efe6dff0bf131eeedaa",
+    "revision": "b0e5adeaed8af9a9b51f4c27976d9c82e793c5e4",
     "task": "cook_hot_dogs",
     "task_label": "hotdog",
     "weight_sha256": {

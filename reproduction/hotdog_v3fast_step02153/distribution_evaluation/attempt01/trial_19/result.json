@@ -1,0 +1,258 @@
+{
+  "status": "completed",
+  "steps": 13718,
+  "video": false,
+  "renderer_memory_profile": {
+    "before": {
+      "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+      "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+    },
+    "requested_texture_budget": 0.05,
+    "actual": {
+      "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.05,
+      "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+    },
+    "viewport": {
+      "previous_updates_enabled": false,
+      "updates_enabled": false
+    },
+    "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+    "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+  },
+  "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+  "control_contract": {
+    "action_normalize": false,
+    "controllers": {
+      "base": {
+        "type": "HolonomicBaseJointController",
+        "motor_type": "velocity",
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "command_input_limits": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "command_output_limits": [
+          [
+            -0.75,
+            -0.75,
+            -1.0
+          ],
+          [
+            0.75,
+            0.75,
+            1.0
+          ]
+        ]
+      },
+      "trunk": {
+        "type": "JointController",
+        "motor_type": "position",
+        "indices": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "command_input_limits": null,
+        "command_output_limits": null
+      },
+      "arm_left": {
+        "type": "JointController",
+        "motor_type": "position",
+        "indices": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "command_input_limits": null,
+        "command_output_limits": null
+      },
+      "arm_right": {
+        "type": "JointController",
+        "motor_type": "position",
+        "indices": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "command_input_limits": null,
+        "command_output_limits": null
+      },
+      "gripper_left": {
+        "type": "MultiFingerGripperController",
+        "motor_type": null,
+        "indices": [
+          14
+        ],
+        "command_input_limits": [
+          [
+            -1.0
+          ],
+          [
+            1.0
+          ]
+        ],
+        "command_output_limits": [
+          [
+            0.0
+          ],
+          [
+            0.05000000074505806
+          ]
+        ]
+      },
+      "gripper_right": {
+        "type": "MultiFingerGripperController",
+        "motor_type": null,
+        "indices": [
+          22
+        ],
+        "command_input_limits": [
+          [
+            -1.0
+          ],
+          [
+            1.0
+          ]
+        ],
+        "command_output_limits": [
+          [
+            0.0
+          ],
+          [
+            0.05000000074505806
+          ]
+        ]
+      }
+    },
+    "status": "passed",
+    "scope": "live controller contract and index coverage; not physical trajectory validation"
+  },
+  "protocol": {
+    "task": "cook_hot_dogs",
+    "instances": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "action_seed": 42,
+    "environment_seed": 0,
+    "action_horizon": 32,
+    "executed_chunk": 32,
+    "max_steps": 13717,
+    "norm_stats_sha256": "d66ed16830a98f90dde8a315058b4a0df59f5e05734c1686d8b3f66787d0a929",
+    "base_weight_sha256": "7d3972b84f04b1e1bfe80c722036c8aac139dae4c99b75973a49ea5288f47174",
+    "oracle_inputs": true,
+    "camera_capture": {
+      "head": [
+        720,
+        720
+      ],
+      "left_wrist": [
+        480,
+        480
+      ],
+      "right_wrist": [
+        480,
+        480
+      ]
+    },
+    "model_image_size": [
+      224,
+      224
+    ],
+    "physics_hz": 120,
+    "action_hz": 30,
+    "render_hz": 30,
+    "texture_budget": 0.25,
+    "action_mapping": "ea6a9d44f46d28379caf6bce0a988af016fad321595f4311b465e4612d9e1b3c",
+    "evaluation_domain": "local_2026_public_test",
+    "record_video": false
+  },
+  "source_hashes": {
+    "tgcc_eval_client.py": "8e2c1ed455452b71829a19c5a9f6d22c44c1d3e9f113a1ff43fe9b0bfc7ffe87",
+    "transport.py": "0f0399d9df6f211c680a30b0183a9d01ac3f4a402ddb291c6026e0cf368a7306",
+    "geometry_assets.json": "5143d5258225590b1884a2ee0862f70b2f44b06e5eac555b0abbc062cb26cacd",
+    "src/tgr/__init__.py": "936f9fecaf1018d9b165d0f66d3e1884f1f5a14fed832dce2aafb1a003bed075",
+    "src/tgr/transport.py": "0f0399d9df6f211c680a30b0183a9d01ac3f4a402ddb291c6026e0cf368a7306",
+    "src/tgcc/__init__.py": "25041022af02523e079c0ab560f9e5f9459f83ee7860c1998e5c768e63159052",
+    "src/tgcc/transport.py": "86c12e37ca04aedd56728b5b34dcc025981c279e4f8d3b88ecb3cd8219bd9bd8"
+  },
+  "diagnostic_only": false,
+  "oracle_upper_bound": true,
+  "trial": 19,
+  "instance_id": 319,
+  "inference_queries": 429,
+  "trial_started": 1793801198.8795478,
+  "simulator_initialized_seconds": 25691.955626145005,
+  "final_execution_assessment_seconds": 1.450754984995001,
+  "elapsed_seconds": 1493.0549003339984,
+  "step_seconds": 670.0308286875079,
+  "final_execution_receipt": {
+    "status": "acknowledged",
+    "request_id": 429,
+    "cached": false,
+    "new_action_generated": false
+  },
+  "source_changed_during_run": false,
+  "success": false,
+  "terminated": false,
+  "truncated": true,
+  "metrics": {
+    "agent_distance": {
+      "base": 8.797492381768016,
+      "left": 53.26584036887289,
+      "right": 61.08917458822543
+    },
+    "normalized_agent_distance": {
+      "base": 2.9306305571154807,
+      "left": 0.27862509813461606,
+      "right": 0.2707681043572027
+    },
+    "q_score": {
+      "final": 0.0
+    },
+    "time": {
+      "simulator_steps": 13718,
+      "simulator_time": 457.26666666666665,
+      "normalized_time": 0.6666317976381396
+    }
+  }
+}

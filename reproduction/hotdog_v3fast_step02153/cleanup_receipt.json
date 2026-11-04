@@ -1,0 +1,9 @@
+{
+  "time": "2026-11-04T22:57:18.432512+08:00",
+  "status": "passed",
+  "remote": {
+    "returncode": 0,
+    "state": "ActiveState=inactive",
+    "stderr": ""
+  }
+}
