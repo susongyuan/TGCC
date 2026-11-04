@@ -1,0 +1,122 @@
+{
+  "schema": "tgr.deployment_nominal_geometry_assets.v1",
+  "units": "metres",
+  "derived_from": {
+    "path": "reports/asset_bounds_readonly_audit.json",
+    "sha256": "1df2f8ac18f59ee6404a5e72427c788ee74138e72ca239f0c5ada8b91c146e9b"
+  },
+  "records": [
+    {
+      "category": "bottom_cabinet_no_top",
+      "model": "gjeoer",
+      "native_bbox_extent_m": [
+        0.616929443359375,
+        2.8143905029296876,
+        0.73142431640625
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.08815763587291743,
+        -0.0032513466608063016,
+        0.06693955641181393
+      ],
+      "metadata_source_sha256": "11f3ae3677938b0a8e371605884720d59276a24f4122fd868c3155599a16819e"
+    },
+    {
+      "category": "bottom_cabinet_no_top",
+      "model": "rkgjer",
+      "native_bbox_extent_m": [
+        3.062760986328125,
+        0.6956093139648437,
+        0.7312445068359376
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.08535931379449568,
+        0.09315950028879771,
+        0.06595461064161978
+      ],
+      "metadata_source_sha256": "a4c12df7d7ef3ba98c0a2e18a7f42f57fe0944915992648562b6ca478f0cc612"
+    },
+    {
+      "category": "countertop",
+      "model": "kelker",
+      "native_bbox_extent_m": [
+        0.8625472412109375,
+        3.44567626953125,
+        0.036077392578125
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        -5.202608192288073e-07,
+        6.423811109376357e-08,
+        -1.756659250081375e-06
+      ],
+      "metadata_source_sha256": "e289f943c4e82805d09f1e0bf992175e90424166bbf3d581b99cfd2d7f8f6bc3"
+    },
+    {
+      "category": "countertop",
+      "model": "kelzer",
+      "native_bbox_extent_m": [
+        1.075152099609375,
+        3.1073170166015625,
+        0.03607452392578125
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.008444925115452941,
+        0.023535475148500667,
+        -7.172704618649708e-07
+      ],
+      "metadata_source_sha256": "a97d9fde18c07e03d920d13a3bac4a456f5febf9222339871f065ab8a77786a4"
+    },
+    {
+      "category": "fridge",
+      "model": "dszchb",
+      "native_bbox_extent_m": [
+        0.6352725219726563,
+        0.6368087768554688,
+        1.6838648071289062
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.0620691035012694,
+        0.0015674099405544842,
+        -0.010609289817580823
+      ],
+      "metadata_source_sha256": "5d3c828cd902c8677bd97adf4aaa19c5785e0237ab6abc9615b4799b6af45d72"
+    },
+    {
+      "category": "hotdog",
+      "model": "lsajfg",
+      "native_bbox_extent_m": [
+        0.07558668518066407,
+        0.1579444808959961,
+        0.05378323745727539
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        -1.0788200663601247e-05,
+        0.0001896934969971712,
+        -0.0023350674844712553
+      ],
+      "metadata_source_sha256": "3768b9f1a8b6218b19c1bd0abffa9a965920c3b991715f26c6230a5c5290364f"
+    },
+    {
+      "category": "microwave",
+      "model": "abzvij",
+      "native_bbox_extent_m": [
+        0.42236563110351566,
+        0.4975291290283203,
+        0.3037397918701172
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.02179131923918385,
+        0.010066043623937622,
+        -0.00048287367611578823
+      ],
+      "metadata_source_sha256": "50405ba33d50ad593570e6991a488ad964f0c93b694fe1cb120d67b49fd08e90"
+    }
+  ],
+  "static_object_names": [
+    "bottom_cabinet_no_top_gjeoer_0",
+    "bottom_cabinet_no_top_rkgjer_0"
+  ],
+  "reachability_revision": "center_position_ik_capsule_box_v1",
+  "scope": "nominal model boxes only; no demonstration frames, initial poses, or task labels",
+  "physical_verified": false
+}

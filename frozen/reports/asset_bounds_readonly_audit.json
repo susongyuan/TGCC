@@ -1,0 +1,1025 @@
+{
+  "schema": "tgr.original_asset_bounds_readonly_audit.v1",
+  "date": "2026-10-24",
+  "assets_source": "existing_local_original_simulation_assets_readonly",
+  "derived_catalog_location": "server_TGR_reports_only",
+  "units": "metres",
+  "records": [
+    {
+      "category": "hotdog",
+      "model": "lsajfg",
+      "role": "task_object",
+      "metadata_source": "/home/user/Robotic/project2/shared/omnigibson/behavior-1k-assets/objects/hotdog/lsajfg/misc/metadata.json",
+      "metadata_source_sha256": "3768b9f1a8b6218b19c1bd0abffa9a965920c3b991715f26c6230a5c5290364f",
+      "metadata_bytes": 2266,
+      "native_bbox_extent_m": [
+        0.07558668518066407,
+        0.1579444808959961,
+        0.05378323745727539
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        -1.0788200663601247e-05,
+        0.0001896934969971712,
+        -0.0023350674844712553
+      ],
+      "collision_axis_aligned_link_boxes": {
+        "base_link": {
+          "extent_m": [
+            0.07606985187814908,
+            0.15872672286716127,
+            0.05352639160852334
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              6.803935442833975e-06
+            ],
+            [
+              0,
+              1,
+              0,
+              0.00031765885748375605
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.00220322058711488
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": true
+        }
+      },
+      "openable_joint_ids": null,
+      "articulated_door_world_pose_verified": false,
+      "physical_verified": false
+    },
+    {
+      "category": "fridge",
+      "model": "dszchb",
+      "role": "task_container",
+      "metadata_source": "/home/user/Robotic/project2/shared/omnigibson/behavior-1k-assets/objects/fridge/dszchb/misc/metadata.json",
+      "metadata_source_sha256": "5d3c828cd902c8677bd97adf4aaa19c5785e0237ab6abc9615b4799b6af45d72",
+      "metadata_bytes": 2985,
+      "native_bbox_extent_m": [
+        0.6352725219726563,
+        0.6368087768554688,
+        1.6838648071289062
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.0620691035012694,
+        0.0015674099405544842,
+        -0.010609289817580823
+      ],
+      "collision_axis_aligned_link_boxes": {
+        "base_link": {
+          "extent_m": [
+            0.5991425377153654,
+            0.6357405793053346,
+            1.6836382617458443
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.044002109489250096
+            ],
+            [
+              0,
+              1,
+              0,
+              0.0010320678988922083
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.010722285493718675
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": true
+        },
+        "link_0": {
+          "extent_m": [
+            0.11264143717122543,
+            0.6086508147350376,
+            1.3686734256965765
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.027176982673234706
+            ],
+            [
+              0,
+              1,
+              0,
+              -0.2806872385858874
+            ],
+            [
+              0,
+              0,
+              1,
+              0.003850617659054034
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        }
+      },
+      "openable_joint_ids": [
+        [
+          1,
+          "j_link_0"
+        ]
+      ],
+      "articulated_door_world_pose_verified": false,
+      "physical_verified": false
+    },
+    {
+      "category": "microwave",
+      "model": "abzvij",
+      "role": "task_container",
+      "metadata_source": "/home/user/Robotic/project2/shared/omnigibson/behavior-1k-assets/objects/microwave/abzvij/misc/metadata.json",
+      "metadata_source_sha256": "50405ba33d50ad593570e6991a488ad964f0c93b694fe1cb120d67b49fd08e90",
+      "metadata_bytes": 4679,
+      "native_bbox_extent_m": [
+        0.42236563110351566,
+        0.4975291290283203,
+        0.3037397918701172
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.02179131923918385,
+        0.010066043623937622,
+        -0.00048287367611578823
+      ],
+      "collision_axis_aligned_link_boxes": {
+        "base_link": {
+          "extent_m": [
+            0.4105312016925695,
+            0.5027528502353142,
+            0.30899534894543457
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.013323457642868908
+            ],
+            [
+              0,
+              1,
+              0,
+              0.01009711266819302
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0004951624883688943
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": true
+        },
+        "link_0": {
+          "extent_m": [
+            0.0698349128727147,
+            0.3862573810271641,
+            0.28988875946531534
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.010922059335849471
+            ],
+            [
+              0,
+              1,
+              0,
+              0.1927000288218832
+            ],
+            [
+              0,
+              0,
+              1,
+              0.0016794967394452853
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        },
+        "glass": {
+          "extent_m": [
+            0.020879014113307726,
+            0.2892107939131243,
+            0.1933667064051998
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              -2.0394526281108938e-06
+            ],
+            [
+              0,
+              1,
+              0,
+              1.8936727581575497e-06
+            ],
+            [
+              0,
+              0,
+              1,
+              5.110522895146463e-08
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        }
+      },
+      "openable_joint_ids": [
+        [
+          1,
+          "j_link_0"
+        ]
+      ],
+      "articulated_door_world_pose_verified": false,
+      "physical_verified": false
+    },
+    {
+      "category": "countertop",
+      "model": "kelker",
+      "role": "recommended_static_proxy",
+      "metadata_source": "/home/user/Robotic/project2/shared/omnigibson/behavior-1k-assets/objects/countertop/kelker/misc/metadata.json",
+      "metadata_source_sha256": "e289f943c4e82805d09f1e0bf992175e90424166bbf3d581b99cfd2d7f8f6bc3",
+      "metadata_bytes": 1638,
+      "native_bbox_extent_m": [
+        0.8625472412109375,
+        3.44567626953125,
+        0.036077392578125
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        -5.202608192288073e-07,
+        6.423811109376357e-08,
+        -1.756659250081375e-06
+      ],
+      "collision_axis_aligned_link_boxes": {
+        "base_link": {
+          "extent_m": [
+            0.8625476068117162,
+            3.445679696564713,
+            0.03607741629996197
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              -2.0823831325955666e-08
+            ],
+            [
+              0,
+              1,
+              0,
+              -1.901440103369012e-06
+            ],
+            [
+              0,
+              0,
+              1,
+              -1.77252254929261e-06
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": true
+        }
+      },
+      "openable_joint_ids": null,
+      "articulated_door_world_pose_verified": false,
+      "physical_verified": false
+    },
+    {
+      "category": "countertop",
+      "model": "kelzer",
+      "role": "recommended_static_proxy",
+      "metadata_source": "/home/user/Robotic/project2/shared/omnigibson/behavior-1k-assets/objects/countertop/kelzer/misc/metadata.json",
+      "metadata_source_sha256": "a97d9fde18c07e03d920d13a3bac4a456f5febf9222339871f065ab8a77786a4",
+      "metadata_bytes": 1624,
+      "native_bbox_extent_m": [
+        1.075152099609375,
+        3.1073170166015625,
+        0.03607452392578125
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.008444925115452941,
+        0.023535475148500667,
+        -7.172704618649708e-07
+      ],
+      "collision_axis_aligned_link_boxes": {
+        "base_link": {
+          "extent_m": [
+            1.075151976957173,
+            3.107316349358512,
+            0.036074524536426456
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.008444810526231528
+            ],
+            [
+              0,
+              1,
+              0,
+              0.023535624231270535
+            ],
+            [
+              0,
+              0,
+              1,
+              -7.172712608305432e-07
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": true
+        }
+      },
+      "openable_joint_ids": null,
+      "articulated_door_world_pose_verified": false,
+      "physical_verified": false
+    },
+    {
+      "category": "bottom_cabinet_no_top",
+      "model": "gjeoer",
+      "scene_object_name": "bottom_cabinet_no_top_gjeoer_0",
+      "role": "recommended_static_proxy",
+      "metadata_source": "/home/user/Robotic/project2/shared/omnigibson/behavior-1k-assets/objects/bottom_cabinet_no_top/gjeoer/misc/metadata.json",
+      "metadata_source_sha256": "11f3ae3677938b0a8e371605884720d59276a24f4122fd868c3155599a16819e",
+      "metadata_bytes": 7098,
+      "native_bbox_extent_m": [
+        0.616929443359375,
+        2.8143905029296876,
+        0.73142431640625
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.08815763587291743,
+        -0.0032513466608063016,
+        0.06693955641181393
+      ],
+      "collision_axis_aligned_link_boxes": {
+        "base_link": {
+          "extent_m": [
+            0.6169289582318251,
+            2.8143898730162524,
+            0.7314243475710043
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.08815738128432171
+            ],
+            [
+              0,
+              1,
+              0,
+              -0.003251892106891585
+            ],
+            [
+              0,
+              0,
+              1,
+              0.06693961207631174
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": true
+        },
+        "doorleft1": {
+          "extent_m": [
+            0.02209191717432546,
+            0.6884772947761734,
+            0.6882678832987088
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.0028793727946971326
+            ],
+            [
+              0,
+              1,
+              0,
+              0.3395583769038399
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.003273092722907406
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        },
+        "doorleft2": {
+          "extent_m": [
+            0.02209191718431036,
+            0.6884772642561734,
+            0.6882678832987088
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.0028789178098868606
+            ],
+            [
+              0,
+              1,
+              0,
+              0.3395583483782185
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0032731133627425246
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        },
+        "doorright1": {
+          "extent_m": [
+            0.02108060131325562,
+            0.6880336893569322,
+            0.6882677001899893
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.002182264553314328
+            ],
+            [
+              0,
+              1,
+              0,
+              -0.33903616579430923
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0032817477588294452
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        },
+        "doorright2": {
+          "extent_m": [
+            0.021080601303249402,
+            0.688033658826932,
+            0.6882677001899893
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.0021822361204827945
+            ],
+            [
+              0,
+              1,
+              0,
+              -0.3390363981131037
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0032817876360276277
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        }
+      },
+      "openable_joint_ids": null,
+      "articulated_door_world_pose_verified": false,
+      "physical_verified": false,
+      "actual_loaded_fixed_kitchen_episode_count": 200
+    },
+    {
+      "category": "bottom_cabinet_no_top",
+      "model": "rkgjer",
+      "scene_object_name": "bottom_cabinet_no_top_rkgjer_0",
+      "role": "recommended_static_proxy",
+      "metadata_source": "/home/user/Robotic/project2/shared/omnigibson/behavior-1k-assets/objects/bottom_cabinet_no_top/rkgjer/misc/metadata.json",
+      "metadata_source_sha256": "a4c12df7d7ef3ba98c0a2e18a7f42f57fe0944915992648562b6ca478f0cc612",
+      "metadata_bytes": 7026,
+      "native_bbox_extent_m": [
+        3.062760986328125,
+        0.6956093139648437,
+        0.7312445068359376
+      ],
+      "native_bbox_center_offset_from_root_m": [
+        0.08535931379449568,
+        0.09315950028879771,
+        0.06595461064161978
+      ],
+      "collision_axis_aligned_link_boxes": {
+        "base_link": {
+          "extent_m": [
+            3.06276074218,
+            0.6927152099599998,
+            0.73124450684
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.08535919172543327
+            ],
+            [
+              0,
+              1,
+              0,
+              0.091712478803329
+            ],
+            [
+              0,
+              0,
+              1,
+              0.06595461064255723
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": true
+        },
+        "doorleft1": {
+          "extent_m": [
+            0.5986757812499999,
+            0.022091796869999847,
+            0.68826794433
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              -0.29525275784158145
+            ],
+            [
+              0,
+              1,
+              0,
+              0.0029133974683562824
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0032720738552447504
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        },
+        "doorleft2": {
+          "extent_m": [
+            0.5986757812499999,
+            0.022091796879999848,
+            0.6882679138200001
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              -0.29526762893062575
+            ],
+            [
+              0,
+              1,
+              0,
+              0.0028793954580803582
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0032721482154465242
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        },
+        "doorright1": {
+          "extent_m": [
+            0.5982900390600001,
+            0.021080688479999887,
+            0.6882678527899999
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.29480625940199845
+            ],
+            [
+              0,
+              1,
+              0,
+              0.0021868680352128966
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0032807006132890837
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        },
+        "doorright2": {
+          "extent_m": [
+            0.5982900390600001,
+            0.02108068848000011,
+            0.6882678527899999
+          ],
+          "link_T_bbox": [
+            [
+              1,
+              0,
+              0,
+              0.29481406663117404
+            ],
+            [
+              0,
+              1,
+              0,
+              0.0021824147615234213
+            ],
+            [
+              0,
+              0,
+              1,
+              -0.0032807415770444714
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "frame_scope": "link_local",
+          "current_world_pose_available_from_root_only": false
+        }
+      },
+      "openable_joint_ids": null,
+      "articulated_door_world_pose_verified": false,
+      "physical_verified": false,
+      "actual_loaded_fixed_kitchen_episode_count": 200
+    }
+  ],
+  "sources": [
+    {
+      "path": "/home/user/Robotic/project2/astra-6-control/support/third_party/BEHAVIOR-1K/OmniGibson/omnigibson/utils/object_utils.py",
+      "sha256": "54e07181c026325a2128d5c1aa88e37744226c28e3d4c54e0b7833ee26861997",
+      "line_ranges": [
+        [
+          46,
+          77
+        ],
+        [
+          80,
+          101
+        ]
+      ],
+      "claim": "root_to_bbox_center_offset_and_link_local_bboxes"
+    },
+    {
+      "path": "/home/user/Robotic/project2/astra-6-control/support/third_party/BEHAVIOR-1K/OmniGibson/omnigibson/utils/asset_conversion_utils.py",
+      "sha256": "deec34798e88f102b7652c9aeee00aa8be7061aa1f83def02b146dd2b4c1f3dd",
+      "line_ranges": [
+        [
+          683,
+          690
+        ],
+        [
+          759,
+          764
+        ],
+        [
+          2470,
+          2483
+        ]
+      ],
+      "claim": "metadata_bbox_size_maps_to_ig_nativeBB_and_offset_root_to_bbox"
+    },
+    {
+      "path": "/home/user/Robotic/project2/astra-6-control/support/third_party/BEHAVIOR-1K/OmniGibson/omnigibson/objects/dataset_object.py",
+      "sha256": "bc5c03bfc3cf1207cf1e9fab33276c7bc85ff1604de09eee7eaa934d437cbbeb",
+      "line_ranges": [
+        [
+          388,
+          407
+        ],
+        [
+          336,
+          358
+        ],
+        [
+          445,
+          454
+        ]
+      ],
+      "claim": "native_bbox_accessor_and_inverse_root_placement_offset"
+    },
+    {
+      "path": "/home/user/Robotic/project2/astra-6-control/support/third_party/BEHAVIOR-1K/OmniGibson/omnigibson/utils/usd_utils.py",
+      "sha256": "19a14c5660d923dc73e0b7e8605dd59f31ad8ecdf6c1cc167786e922bde5556a",
+      "line_ranges": [
+        [
+          2293,
+          2297
+        ]
+      ],
+      "claim": "asset_USD_stage_meters_per_unit_1"
+    }
+  ],
+  "center_formula": "p_world_root + R_world_root @ (scale * native_bbox_center_offset_from_root_m)",
+  "extent_formula": "scale * native_bbox_extent_m; world_AABB_half_extent=abs(R_world_root) @ (scaled_extent/2)",
+  "scale_units": "dimensionless",
+  "physical_verified": false,
+  "simulation_started": false,
+  "GPU_started": false,
+  "asset_version_strict_match_to_2025_demonstrations_verified": false,
+  "missing_requested_models": [],
+  "limits": [
+    "Nominal object-aligned bbox is an envelope, not solid obstacle or current articulated AABB.",
+    "Child link boxes require current world link pose; initial scene joint_pos does not establish current door pose.",
+    "Local model ID equality does not prove byte-identical 2025/2026 asset versions.",
+    "No live scene measurements or physical collision tests performed.",
+    "Fixed cabinet body nominal envelopes provide partial base/arm proxies; fixed_base does not verify current articulated door geometry."
+  ],
+  "static_proxy_recommendation": {
+    "fixed_scene_object_names": [
+      "bottom_cabinet_no_top_gjeoer_0",
+      "bottom_cabinet_no_top_rkgjer_0"
+    ],
+    "selection_policy": "two_explicit_fixed_ids_per_episode_from_actual_meta_scene; no_dynamic_topK_or_graph_union_expansion",
+    "shape": "oriented_box_link_capsule_proxy_not_bounding_sphere",
+    "coverage": "partial_base_and_arm_static_cabinet_envelopes; doors_and_internal_shelves_unobserved",
+    "provenance": "initial_static_scene_proxy, assumed_static=true, oracle=true",
+    "target_container_exception": {
+      "categories": [
+        "fridge",
+        "microwave"
+      ],
+      "condition": "approx_target_center_inside_nominal_object_envelope",
+      "arm_collision_policy": "container_outer_envelope_excluded_only_for_arm_interior_access_approximation",
+      "base_collision_policy": "retain_container_outer_envelope_for_base_clearance",
+      "evidence_scope": "hollow_container_assumption; not_current_Open_or_Inside_predicate",
+      "current_door_and_shelf_geometry_verified": false,
+      "report_missing_geometry_and_excluded_ids": true
+    },
+    "identity": "center_position_ik_capsule_box_v1",
+    "sample_initial_scene_records": {
+      "bottom_cabinet_no_top_gjeoer_0": {
+        "meta_source": "data/hotdogs2025/meta/episodes/task-0045/episode_00452920.json",
+        "meta_source_sha256": "0e97635c2a7b769b691e95720f54411f58c70d0b1f6e0b94b0f81604d6daff80",
+        "args": {
+          "category": "bottom_cabinet_no_top",
+          "model": "gjeoer",
+          "scale": [
+            0.9999522566795349,
+            1.0000033378601074,
+            0.9999667406082153
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        },
+        "initial_root_link": {
+          "pos": [
+            4.088554382324219,
+            -0.20293547213077545,
+            0.41877293586730957
+          ],
+          "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "lin_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ang_vel": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "pose_scope": "initial_static_scene_proxy_assumed_static_not_fresh_sensor"
+      },
+      "bottom_cabinet_no_top_rkgjer_0": {
+        "meta_source": "data/hotdogs2025/meta/episodes/task-0045/episode_00452920.json",
+        "meta_source_sha256": "0e97635c2a7b769b691e95720f54411f58c70d0b1f6e0b94b0f81604d6daff80",
+        "args": {
+          "category": "bottom_cabinet_no_top",
+          "model": "rkgjer",
+          "scale": [
+            1.0000126361846924,
+            0.9999865293502808,
+            0.9999390840530396
+          ],
+          "fixed_base": true,
+          "visual_only": false,
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        },
+        "initial_root_link": {
+          "pos": [
+            5.901424407958984,
+            -2.051255702972412,
+            0.41984987258911133
+          ],
+          "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "lin_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ang_vel": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "pose_scope": "initial_static_scene_proxy_assumed_static_not_fresh_sensor"
+      }
+    }
+  },
+  "server_demonstration_metadata_model_audit": {
+    "episodes_inspected": 200,
+    "model_ids": {
+      "fridge": [
+        "dszchb"
+      ],
+      "microwave": [
+        "abzvij"
+      ],
+      "hotdog": [
+        "lsajfg"
+      ]
+    },
+    "static_actual_loaded_counts": {
+      "countertop_kelker_0": 200,
+      "countertop_kelzer_0": 200,
+      "bottom_cabinet_no_top_gjeoer_0": 200,
+      "bottom_cabinet_no_top_rkgjer_0": 200
+    },
+    "dynamic_initial_state_used_as_current_truth": false
+  }
+}

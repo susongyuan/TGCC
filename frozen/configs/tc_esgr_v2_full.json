@@ -1,0 +1,28 @@
+{
+  "architecture": "tc_esgr_v2",
+  "mode": "tc_esgr",
+  "tokens": {
+    "global": 8,
+    "task": 4,
+    "local": 8,
+    "subgoal": 2
+  },
+  "graph_hidden": 256,
+  "local_history_updates": 16,
+  "task_event_capacity": 64,
+  "training_scope": "all_pi_and_new_graph_modules",
+  "lora": false,
+  "max_gpus": 4,
+  "join_utilization_max": 50,
+  "global_batch": 48,
+  "max_optimizer_steps": 5417,
+  "base_lr": 1e-05,
+  "graph_lr": 0.0001,
+  "oracle_upper_bound": true,
+  "baseline_protocol": "configs/evaluation_pairing.json",
+  "ablations_requested": false,
+  "minimum_formal_epochs": 5,
+  "required_formal_optimizer_steps": 5387,
+  "early_stop": false,
+  "implementation_identity": "experiments/tc_esgr_v2_approx_full_5ep_20261024_02/implementation_identity.json"
+}

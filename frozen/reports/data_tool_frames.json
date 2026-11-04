@@ -1,0 +1,53 @@
+{
+  "schema": "tgr.r1pro_source_declared_tool_frame.v1",
+  "parent": "left/right_gripper_link",
+  "child": "left/right_eef_link",
+  "position": [
+    0,
+    0,
+    -0.06
+  ],
+  "quaternion_xyzw": [
+    0,
+    1,
+    0,
+    0
+  ],
+  "source": "/home/user/Robotic/project2/shared/omnigibson/omnigibson-robot-assets/source/r1pro/r1pro_source_cfg.yaml",
+  "source_lines": "47-57",
+  "source_sha256": "8b0a672e335b6ad6881d0886a46a6c36745845012e284e8bf9dd65c0f772ddd9",
+  "definition_source": "/home/user/Robotic/project2/shared/omnigibson/omnigibson-robot-assets/models/r1pro/r1pro.yaml",
+  "definition_lines": "52-54",
+  "definition_source_sha256": "63f841cffd5c499102416a797a22fa5b4cbaf146539df7dde8a4a1053e2326f1",
+  "offset_fitted_to_demonstration": false,
+  "matrix": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      -0.06
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "max_position_residual_m": 1.1941374059894035e-06,
+  "max_orientation_residual_rad": 5.4236832836207e-07,
+  "validation_report_sha256": "ebfe7c9603ad81d3b4d1f7ad78803a85bdd98c82bf592086016b947114ae3ad8",
+  "verified_scope": "actual train450010 and val450140 frame32/64; no live calibration"
+}

@@ -1,0 +1,430 @@
+{
+  "schema": "tgr.R1Pro_source_gripper_proxy.v1",
+  "date": "2026-10-24",
+  "source": "/home/user/Robotic/project2/shared/omnigibson/omnigibson-robot-assets/source/r1pro/r1pro_source_cfg.yaml",
+  "source_sha256": "8b0a672e335b6ad6881d0886a46a6c36745845012e284e8bf9dd65c0f772ddd9",
+  "source_scope": "original_CuRobo_planning_spheres_not_mesh_or_physical_certification",
+  "robot_definition_source": "/home/user/Robotic/project2/shared/omnigibson/omnigibson-robot-assets/models/r1pro/r1pro.yaml",
+  "robot_definition_sha256": "63f841cffd5c499102416a797a22fa5b4cbaf146539df7dde8a4a1053e2326f1",
+  "compatible_urdf_sha256": "b0d76760cbedfbcbe1ddc280380dd5f497bbca380313bc096d7239a2c50dae61",
+  "sphere_units": "metres",
+  "spheres_by_link": {
+    "right_gripper_link": [
+      {
+        "center": [
+          0,
+          0,
+          0.037
+        ],
+        "radius": 0.04
+      },
+      {
+        "center": [
+          0.015,
+          -0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      },
+      {
+        "center": [
+          -0.015,
+          -0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      },
+      {
+        "center": [
+          0.015,
+          0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      },
+      {
+        "center": [
+          -0.015,
+          0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      }
+    ],
+    "right_gripper_finger_link1": [
+      {
+        "center": [
+          0,
+          -0.005,
+          0.015
+        ],
+        "radius": 0.01
+      },
+      {
+        "center": [
+          0,
+          -0.006,
+          -0.005
+        ],
+        "radius": 0.008
+      },
+      {
+        "center": [
+          0,
+          -0.008,
+          -0.02
+        ],
+        "radius": 0.007
+      },
+      {
+        "center": [
+          0,
+          -0.01,
+          -0.035
+        ],
+        "radius": 0.005
+      }
+    ],
+    "right_gripper_finger_link2": [
+      {
+        "center": [
+          0,
+          0.005,
+          0.015
+        ],
+        "radius": 0.01
+      },
+      {
+        "center": [
+          0,
+          0.006,
+          -0.005
+        ],
+        "radius": 0.008
+      },
+      {
+        "center": [
+          0,
+          0.008,
+          -0.02
+        ],
+        "radius": 0.007
+      },
+      {
+        "center": [
+          0,
+          0.01,
+          -0.035
+        ],
+        "radius": 0.005
+      }
+    ],
+    "left_gripper_link": [
+      {
+        "center": [
+          0,
+          0,
+          0.037
+        ],
+        "radius": 0.04
+      },
+      {
+        "center": [
+          0.015,
+          -0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      },
+      {
+        "center": [
+          -0.015,
+          -0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      },
+      {
+        "center": [
+          0.015,
+          0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      },
+      {
+        "center": [
+          -0.015,
+          0.042,
+          0.0075
+        ],
+        "radius": 0.015
+      }
+    ],
+    "left_gripper_finger_link1": [
+      {
+        "center": [
+          0,
+          -0.005,
+          0.015
+        ],
+        "radius": 0.01
+      },
+      {
+        "center": [
+          0,
+          -0.006,
+          -0.005
+        ],
+        "radius": 0.008
+      },
+      {
+        "center": [
+          0,
+          -0.008,
+          -0.02
+        ],
+        "radius": 0.007
+      },
+      {
+        "center": [
+          0,
+          -0.01,
+          -0.035
+        ],
+        "radius": 0.005
+      }
+    ],
+    "left_gripper_finger_link2": [
+      {
+        "center": [
+          0,
+          0.005,
+          0.015
+        ],
+        "radius": 0.01
+      },
+      {
+        "center": [
+          0,
+          0.006,
+          -0.005
+        ],
+        "radius": 0.008
+      },
+      {
+        "center": [
+          0,
+          0.008,
+          -0.02
+        ],
+        "radius": 0.007
+      },
+      {
+        "center": [
+          0,
+          0.01,
+          -0.035
+        ],
+        "radius": 0.005
+      }
+    ]
+  },
+  "self_collision_ignore_pairs": [
+    [
+      "base_link",
+      "torso_link1"
+    ],
+    [
+      "base_link",
+      "wheel_motor_link1"
+    ],
+    [
+      "base_link",
+      "wheel_motor_link2"
+    ],
+    [
+      "base_link",
+      "wheel_motor_link3"
+    ],
+    [
+      "left_arm_link1",
+      "left_arm_link2"
+    ],
+    [
+      "left_arm_link1",
+      "torso_link4"
+    ],
+    [
+      "left_arm_link2",
+      "left_arm_link3"
+    ],
+    [
+      "left_arm_link2",
+      "torso_link4"
+    ],
+    [
+      "left_arm_link3",
+      "left_arm_link4"
+    ],
+    [
+      "left_arm_link4",
+      "left_arm_link5"
+    ],
+    [
+      "left_arm_link5",
+      "left_arm_link6"
+    ],
+    [
+      "left_arm_link5",
+      "left_arm_link7"
+    ],
+    [
+      "left_arm_link6",
+      "left_arm_link7"
+    ],
+    [
+      "left_arm_link7",
+      "left_gripper_link"
+    ],
+    [
+      "left_gripper_finger_link1",
+      "left_gripper_finger_link2"
+    ],
+    [
+      "left_gripper_finger_link1",
+      "left_gripper_link"
+    ],
+    [
+      "left_gripper_finger_link1",
+      "left_realsense_link"
+    ],
+    [
+      "left_gripper_finger_link2",
+      "left_gripper_link"
+    ],
+    [
+      "left_gripper_link",
+      "left_realsense_link"
+    ],
+    [
+      "right_arm_link1",
+      "right_arm_link2"
+    ],
+    [
+      "right_arm_link1",
+      "torso_link4"
+    ],
+    [
+      "right_arm_link2",
+      "right_arm_link3"
+    ],
+    [
+      "right_arm_link2",
+      "torso_link4"
+    ],
+    [
+      "right_arm_link3",
+      "right_arm_link4"
+    ],
+    [
+      "right_arm_link4",
+      "right_arm_link5"
+    ],
+    [
+      "right_arm_link5",
+      "right_arm_link6"
+    ],
+    [
+      "right_arm_link5",
+      "right_arm_link7"
+    ],
+    [
+      "right_arm_link6",
+      "right_arm_link7"
+    ],
+    [
+      "right_arm_link7",
+      "right_gripper_link"
+    ],
+    [
+      "right_gripper_finger_link1",
+      "right_gripper_finger_link2"
+    ],
+    [
+      "right_gripper_finger_link1",
+      "right_gripper_link"
+    ],
+    [
+      "right_gripper_finger_link1",
+      "right_realsense_link"
+    ],
+    [
+      "right_gripper_finger_link2",
+      "right_gripper_link"
+    ],
+    [
+      "right_gripper_link",
+      "right_realsense_link"
+    ],
+    [
+      "torso_link1",
+      "torso_link2"
+    ],
+    [
+      "torso_link2",
+      "torso_link3"
+    ],
+    [
+      "torso_link2",
+      "torso_link4"
+    ],
+    [
+      "torso_link3",
+      "torso_link4"
+    ],
+    [
+      "torso_link4",
+      "zed_link"
+    ]
+  ],
+  "eef_vis_links": [
+    {
+      "link": "left_eef_link",
+      "parent_link": "left_gripper_link",
+      "offset": {
+        "position": [
+          0,
+          0,
+          -0.06
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "link": "right_eef_link",
+      "parent_link": "right_gripper_link",
+      "offset": {
+        "position": [
+          0,
+          0,
+          -0.06
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "virtual_eef_frame_is_collision_volume": false,
+  "physical_verified": false,
+  "finger_feedback_required": "named left/right_gripper_finger_joint1/2 measured prismatic qpos; absent feedback means explicit missing finger geometry"
+}

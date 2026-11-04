@@ -1,0 +1,47 @@
+{
+  "task": "cook_hot_dogs",
+  "instances": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310
+  ],
+  "action_seed": 42,
+  "environment_seed": 0,
+  "action_horizon": 32,
+  "executed_chunk": 32,
+  "max_steps": 13717,
+  "norm_stats_sha256": "d66ed16830a98f90dde8a315058b4a0df59f5e05734c1686d8b3f66787d0a929",
+  "base_weight_sha256": "7d3972b84f04b1e1bfe80c722036c8aac139dae4c99b75973a49ea5288f47174",
+  "oracle_inputs": false,
+  "camera_capture": {
+    "head": [
+      720,
+      720
+    ],
+    "left_wrist": [
+      480,
+      480
+    ],
+    "right_wrist": [
+      480,
+      480
+    ]
+  },
+  "model_image_size": [
+    224,
+    224
+  ],
+  "physics_hz": 120,
+  "action_hz": 30,
+  "render_hz": 30,
+  "texture_budget": 0.25,
+  "action_mapping": "ea6a9d44f46d28379caf6bce0a988af016fad321595f4311b465e4612d9e1b3c",
+  "evaluation_domain": "local_2026_public_test"
+}

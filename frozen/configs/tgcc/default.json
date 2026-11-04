@@ -1,0 +1,105 @@
+{
+  "schema": "tgcc.joint.direct.v3",
+  "seed": 42,
+  "parent_step": 5000,
+  "new_updates": 6000,
+  "effective_batch": 48,
+  "max_gpus": 4,
+  "phases": [
+    {
+      "start": 0,
+      "end": 1000,
+      "train": "critic"
+    },
+    {
+      "start": 1000,
+      "end": 6000,
+      "train": "full_policy_graph_critic_adapters"
+    }
+  ],
+  "critic_lr": 0.0001,
+  "adapter_lr": 2e-06,
+  "weight_decay": 0.01,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "grad_clip": 1.0,
+  "warmup": 100,
+  "min_lr_ratio": 0.1,
+  "margin": 0.2,
+  "loss_weights": {
+    "rank": 1.0,
+    "transition": 1.0,
+    "predicate": 1.0,
+    "progress": 0.5,
+    "handoff": 0.5,
+    "flow": 1.0,
+    "teacher_consistency": 0.0,
+    "precondition": 0.5,
+    "skill": 0.01
+  },
+  "history": 16,
+  "hidden": 256,
+  "dropout": 0.1,
+  "query_count": 4,
+  "attention_heads": 4,
+  "fusion_layers": 2,
+  "feedforward": 512,
+  "max_contracts": 16,
+  "max_negatives": 2,
+  "adapter_bottleneck": 64,
+  "adapter_gate_init": 0.0,
+  "calibration_alpha": 0.05,
+  "completion_valid_checks": 3,
+  "checkpoint_new_steps": [
+    1000,
+    3000,
+    6000
+  ],
+  "evaluation": {
+    "instances": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "action_seed": 42,
+    "environment_seed": 0,
+    "oracle_inputs": true,
+    "record_video": false
+  },
+  "critic_warmup_updates": 1000,
+  "joint_updates": 5000,
+  "backbone_lr": 2e-06,
+  "graph_lr": 1e-05,
+  "teacher": "disabled",
+  "vision_lr": 1e-06,
+  "vlm_lr": 1e-06,
+  "expert_lr": 2e-06,
+  "action_io_lr": 2e-06,
+  "learning_rate_evidence": "conservative candidate from historical gradient scale; final true-data preflight required, not tuned by epoch count",
+  "critic_role": "evaluation_only",
+  "evaluation_pairs": 500,
+  "evaluation_scope": [
+    "action_ranking",
+    "executed_contract_outcome",
+    "subtask_precondition_error"
+  ]
+}

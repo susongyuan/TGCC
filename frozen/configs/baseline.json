@@ -1,0 +1,16 @@
+{
+  "mode": "baseline",
+  "backend": "pytorch",
+  "features": 32,
+  "hidden": 256,
+  "global_tokens": 8,
+  "local_tokens": 8,
+  "task_tokens": 4,
+  "subgoal_tokens": 2,
+  "history": 16,
+  "allow_untrained_evaluation": false,
+  "checkpoint": "/media/data5/ssy/pi05-behavior/checkpoints_pytorch/pi05-b1kpt50-cs32",
+  "oracle": "explicit_upper_bound_only",
+  "train_stage": "A",
+  "expert_lora": false
+}

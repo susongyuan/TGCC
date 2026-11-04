@@ -1,0 +1,1205 @@
+{
+  "method": "sha256 episode ID first32 bits <0.1 validation; no test score inputs",
+  "rows": [
+    {
+      "episode_id": 450010,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450010.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450010.json"
+    },
+    {
+      "episode_id": 450020,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450020.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450020.json"
+    },
+    {
+      "episode_id": 450030,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450030.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450030.json"
+    },
+    {
+      "episode_id": 450040,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450040.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450040.json"
+    },
+    {
+      "episode_id": 450050,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450050.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450050.json"
+    },
+    {
+      "episode_id": 450060,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450060.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450060.json"
+    },
+    {
+      "episode_id": 450070,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450070.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450070.json"
+    },
+    {
+      "episode_id": 450080,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450080.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450080.json"
+    },
+    {
+      "episode_id": 450090,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450090.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450090.json"
+    },
+    {
+      "episode_id": 450100,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450100.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450100.json"
+    },
+    {
+      "episode_id": 450110,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450110.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450110.json"
+    },
+    {
+      "episode_id": 450120,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450120.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450120.json"
+    },
+    {
+      "episode_id": 450130,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450130.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450130.json"
+    },
+    {
+      "episode_id": 450140,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450140.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450140.json"
+    },
+    {
+      "episode_id": 450150,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450150.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450150.json"
+    },
+    {
+      "episode_id": 450160,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450160.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450160.json"
+    },
+    {
+      "episode_id": 450170,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450170.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450170.json"
+    },
+    {
+      "episode_id": 450180,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450180.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450180.json"
+    },
+    {
+      "episode_id": 450190,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450190.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450190.json"
+    },
+    {
+      "episode_id": 450200,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450200.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450200.json"
+    },
+    {
+      "episode_id": 450210,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450210.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450210.json"
+    },
+    {
+      "episode_id": 450220,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450220.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450220.json"
+    },
+    {
+      "episode_id": 450230,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450230.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450230.json"
+    },
+    {
+      "episode_id": 450240,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450240.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450240.json"
+    },
+    {
+      "episode_id": 450250,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450250.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450250.json"
+    },
+    {
+      "episode_id": 450260,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450260.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450260.json"
+    },
+    {
+      "episode_id": 450270,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450270.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450270.json"
+    },
+    {
+      "episode_id": 450280,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450280.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450280.json"
+    },
+    {
+      "episode_id": 450290,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450290.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450290.json"
+    },
+    {
+      "episode_id": 450300,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450300.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450300.json"
+    },
+    {
+      "episode_id": 450310,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450310.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450310.json"
+    },
+    {
+      "episode_id": 450320,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450320.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450320.json"
+    },
+    {
+      "episode_id": 450330,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450330.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450330.json"
+    },
+    {
+      "episode_id": 450340,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450340.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450340.json"
+    },
+    {
+      "episode_id": 450350,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450350.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450350.json"
+    },
+    {
+      "episode_id": 450360,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450360.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450360.json"
+    },
+    {
+      "episode_id": 450370,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450370.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450370.json"
+    },
+    {
+      "episode_id": 450380,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450380.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450380.json"
+    },
+    {
+      "episode_id": 450390,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450390.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450390.json"
+    },
+    {
+      "episode_id": 450400,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450400.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450400.json"
+    },
+    {
+      "episode_id": 450410,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450410.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450410.json"
+    },
+    {
+      "episode_id": 450430,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450430.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450430.json"
+    },
+    {
+      "episode_id": 450440,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450440.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450440.json"
+    },
+    {
+      "episode_id": 450450,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450450.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450450.json"
+    },
+    {
+      "episode_id": 450470,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450470.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450470.json"
+    },
+    {
+      "episode_id": 450480,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450480.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450480.json"
+    },
+    {
+      "episode_id": 450490,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450490.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450490.json"
+    },
+    {
+      "episode_id": 450500,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450500.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450500.json"
+    },
+    {
+      "episode_id": 450510,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450510.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450510.json"
+    },
+    {
+      "episode_id": 450520,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450520.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450520.json"
+    },
+    {
+      "episode_id": 450530,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450530.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450530.json"
+    },
+    {
+      "episode_id": 450540,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450540.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450540.json"
+    },
+    {
+      "episode_id": 450550,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450550.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450550.json"
+    },
+    {
+      "episode_id": 450560,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450560.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450560.json"
+    },
+    {
+      "episode_id": 450570,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450570.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450570.json"
+    },
+    {
+      "episode_id": 450580,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450580.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450580.json"
+    },
+    {
+      "episode_id": 450590,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450590.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450590.json"
+    },
+    {
+      "episode_id": 450600,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450600.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450600.json"
+    },
+    {
+      "episode_id": 450610,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450610.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450610.json"
+    },
+    {
+      "episode_id": 450620,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450620.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450620.json"
+    },
+    {
+      "episode_id": 450630,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450630.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450630.json"
+    },
+    {
+      "episode_id": 450640,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450640.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450640.json"
+    },
+    {
+      "episode_id": 450650,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450650.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450650.json"
+    },
+    {
+      "episode_id": 450660,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450660.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450660.json"
+    },
+    {
+      "episode_id": 450670,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450670.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450670.json"
+    },
+    {
+      "episode_id": 450680,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450680.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450680.json"
+    },
+    {
+      "episode_id": 450690,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450690.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450690.json"
+    },
+    {
+      "episode_id": 450700,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450700.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450700.json"
+    },
+    {
+      "episode_id": 450710,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450710.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450710.json"
+    },
+    {
+      "episode_id": 450730,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450730.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450730.json"
+    },
+    {
+      "episode_id": 450740,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450740.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450740.json"
+    },
+    {
+      "episode_id": 450760,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450760.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450760.json"
+    },
+    {
+      "episode_id": 450770,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450770.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450770.json"
+    },
+    {
+      "episode_id": 450780,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450780.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450780.json"
+    },
+    {
+      "episode_id": 450790,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450790.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450790.json"
+    },
+    {
+      "episode_id": 450810,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450810.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450810.json"
+    },
+    {
+      "episode_id": 450820,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450820.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450820.json"
+    },
+    {
+      "episode_id": 450830,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450830.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450830.json"
+    },
+    {
+      "episode_id": 450840,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450840.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450840.json"
+    },
+    {
+      "episode_id": 450850,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450850.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450850.json"
+    },
+    {
+      "episode_id": 450860,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450860.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450860.json"
+    },
+    {
+      "episode_id": 450870,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450870.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450870.json"
+    },
+    {
+      "episode_id": 450880,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450880.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450880.json"
+    },
+    {
+      "episode_id": 450890,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450890.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450890.json"
+    },
+    {
+      "episode_id": 450900,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450900.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450900.json"
+    },
+    {
+      "episode_id": 450910,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450910.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450910.json"
+    },
+    {
+      "episode_id": 450920,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450920.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450920.json"
+    },
+    {
+      "episode_id": 450930,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450930.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450930.json"
+    },
+    {
+      "episode_id": 450940,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450940.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450940.json"
+    },
+    {
+      "episode_id": 450950,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450950.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450950.json"
+    },
+    {
+      "episode_id": 450960,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450960.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450960.json"
+    },
+    {
+      "episode_id": 450970,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450970.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450970.json"
+    },
+    {
+      "episode_id": 450980,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450980.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450980.json"
+    },
+    {
+      "episode_id": 450990,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00450990.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00450990.json"
+    },
+    {
+      "episode_id": 451000,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451000.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451000.json"
+    },
+    {
+      "episode_id": 451010,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451010.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451010.json"
+    },
+    {
+      "episode_id": 451030,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451030.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451030.json"
+    },
+    {
+      "episode_id": 451040,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451040.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451040.json"
+    },
+    {
+      "episode_id": 451070,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451070.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451070.json"
+    },
+    {
+      "episode_id": 451080,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451080.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451080.json"
+    },
+    {
+      "episode_id": 451090,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451090.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451090.json"
+    },
+    {
+      "episode_id": 451100,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451100.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451100.json"
+    },
+    {
+      "episode_id": 451120,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451120.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451120.json"
+    },
+    {
+      "episode_id": 451160,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451160.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451160.json"
+    },
+    {
+      "episode_id": 451170,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451170.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451170.json"
+    },
+    {
+      "episode_id": 451180,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451180.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451180.json"
+    },
+    {
+      "episode_id": 451190,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451190.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451190.json"
+    },
+    {
+      "episode_id": 451200,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451200.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451200.json"
+    },
+    {
+      "episode_id": 451220,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451220.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451220.json"
+    },
+    {
+      "episode_id": 451250,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451250.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451250.json"
+    },
+    {
+      "episode_id": 451280,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451280.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451280.json"
+    },
+    {
+      "episode_id": 451290,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451290.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451290.json"
+    },
+    {
+      "episode_id": 451300,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451300.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451300.json"
+    },
+    {
+      "episode_id": 451330,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451330.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451330.json"
+    },
+    {
+      "episode_id": 451340,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451340.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451340.json"
+    },
+    {
+      "episode_id": 451350,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451350.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451350.json"
+    },
+    {
+      "episode_id": 451360,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451360.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451360.json"
+    },
+    {
+      "episode_id": 451370,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451370.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451370.json"
+    },
+    {
+      "episode_id": 451400,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451400.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451400.json"
+    },
+    {
+      "episode_id": 451430,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451430.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451430.json"
+    },
+    {
+      "episode_id": 451460,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451460.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451460.json"
+    },
+    {
+      "episode_id": 451490,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451490.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451490.json"
+    },
+    {
+      "episode_id": 451500,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451500.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451500.json"
+    },
+    {
+      "episode_id": 451530,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451530.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451530.json"
+    },
+    {
+      "episode_id": 451540,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451540.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451540.json"
+    },
+    {
+      "episode_id": 451590,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451590.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451590.json"
+    },
+    {
+      "episode_id": 451620,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451620.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451620.json"
+    },
+    {
+      "episode_id": 451630,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451630.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451630.json"
+    },
+    {
+      "episode_id": 451760,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451760.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451760.json"
+    },
+    {
+      "episode_id": 451770,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451770.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451770.json"
+    },
+    {
+      "episode_id": 451790,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451790.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451790.json"
+    },
+    {
+      "episode_id": 451810,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451810.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451810.json"
+    },
+    {
+      "episode_id": 451820,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451820.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451820.json"
+    },
+    {
+      "episode_id": 451860,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451860.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451860.json"
+    },
+    {
+      "episode_id": 451870,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451870.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451870.json"
+    },
+    {
+      "episode_id": 451900,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451900.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451900.json"
+    },
+    {
+      "episode_id": 451920,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451920.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451920.json"
+    },
+    {
+      "episode_id": 451930,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451930.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451930.json"
+    },
+    {
+      "episode_id": 451990,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00451990.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00451990.json"
+    },
+    {
+      "episode_id": 452010,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452010.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452010.json"
+    },
+    {
+      "episode_id": 452030,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452030.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452030.json"
+    },
+    {
+      "episode_id": 452040,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452040.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452040.json"
+    },
+    {
+      "episode_id": 452050,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452050.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452050.json"
+    },
+    {
+      "episode_id": 452060,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452060.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452060.json"
+    },
+    {
+      "episode_id": 452070,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452070.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452070.json"
+    },
+    {
+      "episode_id": 452080,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452080.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452080.json"
+    },
+    {
+      "episode_id": 452090,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452090.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452090.json"
+    },
+    {
+      "episode_id": 452100,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452100.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452100.json"
+    },
+    {
+      "episode_id": 452110,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452110.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452110.json"
+    },
+    {
+      "episode_id": 452120,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452120.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452120.json"
+    },
+    {
+      "episode_id": 452140,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452140.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452140.json"
+    },
+    {
+      "episode_id": 452150,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452150.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452150.json"
+    },
+    {
+      "episode_id": 452170,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452170.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452170.json"
+    },
+    {
+      "episode_id": 452180,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452180.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452180.json"
+    },
+    {
+      "episode_id": 452190,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452190.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452190.json"
+    },
+    {
+      "episode_id": 452200,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452200.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452200.json"
+    },
+    {
+      "episode_id": 452210,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452210.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452210.json"
+    },
+    {
+      "episode_id": 452220,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452220.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452220.json"
+    },
+    {
+      "episode_id": 452240,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452240.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452240.json"
+    },
+    {
+      "episode_id": 452250,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452250.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452250.json"
+    },
+    {
+      "episode_id": 452260,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452260.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452260.json"
+    },
+    {
+      "episode_id": 452270,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452270.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452270.json"
+    },
+    {
+      "episode_id": 452280,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452280.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452280.json"
+    },
+    {
+      "episode_id": 452290,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452290.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452290.json"
+    },
+    {
+      "episode_id": 452300,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452300.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452300.json"
+    },
+    {
+      "episode_id": 452310,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452310.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452310.json"
+    },
+    {
+      "episode_id": 452320,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452320.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452320.json"
+    },
+    {
+      "episode_id": 452330,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452330.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452330.json"
+    },
+    {
+      "episode_id": 452340,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452340.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452340.json"
+    },
+    {
+      "episode_id": 452360,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452360.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452360.json"
+    },
+    {
+      "episode_id": 452370,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452370.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452370.json"
+    },
+    {
+      "episode_id": 452380,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452380.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452380.json"
+    },
+    {
+      "episode_id": 452390,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452390.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452390.json"
+    },
+    {
+      "episode_id": 452400,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452400.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452400.json"
+    },
+    {
+      "episode_id": 452410,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452410.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452410.json"
+    },
+    {
+      "episode_id": 452420,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452420.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452420.json"
+    },
+    {
+      "episode_id": 452430,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452430.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452430.json"
+    },
+    {
+      "episode_id": 452440,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452440.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452440.json"
+    },
+    {
+      "episode_id": 452450,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452450.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452450.json"
+    },
+    {
+      "episode_id": 452460,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452460.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452460.json"
+    },
+    {
+      "episode_id": 452470,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452470.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452470.json"
+    },
+    {
+      "episode_id": 452480,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452480.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452480.json"
+    },
+    {
+      "episode_id": 452490,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452490.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452490.json"
+    },
+    {
+      "episode_id": 452500,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452500.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452500.json"
+    },
+    {
+      "episode_id": 452550,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452550.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452550.json"
+    },
+    {
+      "episode_id": 452630,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452630.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452630.json"
+    },
+    {
+      "episode_id": 452650,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452650.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452650.json"
+    },
+    {
+      "episode_id": 452670,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452670.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452670.json"
+    },
+    {
+      "episode_id": 452700,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452700.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452700.json"
+    },
+    {
+      "episode_id": 452710,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452710.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452710.json"
+    },
+    {
+      "episode_id": 452730,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452730.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452730.json"
+    },
+    {
+      "episode_id": 452760,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452760.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452760.json"
+    },
+    {
+      "episode_id": 452770,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452770.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452770.json"
+    },
+    {
+      "episode_id": 452790,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452790.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452790.json"
+    },
+    {
+      "episode_id": 452850,
+      "split": "validation",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452850.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452850.json"
+    },
+    {
+      "episode_id": 452920,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452920.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452920.json"
+    },
+    {
+      "episode_id": 452930,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452930.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452930.json"
+    },
+    {
+      "episode_id": 452980,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452980.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452980.json"
+    },
+    {
+      "episode_id": 452990,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00452990.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00452990.json"
+    },
+    {
+      "episode_id": 453000,
+      "split": "train",
+      "annotation": "data/hotdogs2025/annotations/task-0045/episode_00453000.json",
+      "meta": "data/hotdogs2025/meta/episodes/task-0045/episode_00453000.json"
+    }
+  ]
+}

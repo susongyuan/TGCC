@@ -1,0 +1,8 @@
+.venv/
+weights/
+runs/
+__pycache__/
+*.pyc
+.env
+*.safetensors
+*.distcp

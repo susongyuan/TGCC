@@ -1,0 +1,1879 @@
+{
+  "protocol": {
+    "task": "cook_hot_dogs",
+    "instances": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310
+    ],
+    "action_seed": 42,
+    "environment_seed": 0,
+    "action_horizon": 32,
+    "executed_chunk": 32,
+    "max_steps": 13717,
+    "norm_stats_sha256": "d66ed16830a98f90dde8a315058b4a0df59f5e05734c1686d8b3f66787d0a929",
+    "base_weight_sha256": "7d3972b84f04b1e1bfe80c722036c8aac139dae4c99b75973a49ea5288f47174",
+    "oracle_inputs": false,
+    "camera_capture": {
+      "head": [
+        720,
+        720
+      ],
+      "left_wrist": [
+        480,
+        480
+      ],
+      "right_wrist": [
+        480,
+        480
+      ]
+    },
+    "model_image_size": [
+      224,
+      224
+    ],
+    "physics_hz": 120,
+    "action_hz": 30,
+    "render_hz": 30,
+    "texture_budget": 0.25,
+    "action_mapping": "ea6a9d44f46d28379caf6bce0a988af016fad321595f4311b465e4612d9e1b3c",
+    "evaluation_domain": "local_2026_public_test"
+  },
+  "results": [
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 1,
+      "instance_id": 301,
+      "inference_queries": 429,
+      "trial_started": 1792747345.2348301,
+      "simulator_initialized_seconds": 138.86627358896658,
+      "elapsed_seconds": 1273.298854255001,
+      "step_seconds": 708.9973897245945,
+      "success": false,
+      "terminated": false,
+      "truncated": true,
+      "metrics": {
+        "agent_distance": {
+          "base": 15.61002588016595,
+          "left": 48.28464487318706,
+          "right": 44.10394887163966
+        },
+        "normalized_agent_distance": {
+          "base": 1.6516436422286003,
+          "left": 0.30736893766078965,
+          "right": 0.3750457821393954
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13585,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 2,
+      "instance_id": 302,
+      "inference_queries": 425,
+      "trial_started": 1792748627.8060884,
+      "simulator_initialized_seconds": 1421.437531951,
+      "elapsed_seconds": 1224.7417121890467,
+      "step_seconds": 703.9745313293533,
+      "terminated": true,
+      "truncated": false,
+      "success": true,
+      "metrics": {
+        "agent_distance": {
+          "base": 17.42501196280947,
+          "left": 47.1153158098532,
+          "right": 45.831135914093466
+        },
+        "normalized_agent_distance": {
+          "base": 1.4796087402997158,
+          "left": 0.31499735796944967,
+          "right": 0.36091184890125105
+        },
+        "q_score": {
+          "final": 1.0
+        },
+        "time": {
+          "simulator_steps": 13585,
+          "simulator_time": 452.8333333333333,
+          "normalized_time": 0.6731582627898417
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 3,
+      "instance_id": 303,
+      "inference_queries": 429,
+      "trial_started": 1792749861.601173,
+      "simulator_initialized_seconds": 2655.232616222929,
+      "elapsed_seconds": 1200.6809793040156,
+      "step_seconds": 699.2187078403076,
+      "terminated": false,
+      "truncated": true,
+      "success": false,
+      "metrics": {
+        "agent_distance": {
+          "base": 7.643758761386842,
+          "left": 39.036537234766,
+          "right": 41.72871268171184
+        },
+        "normalized_agent_distance": {
+          "base": 3.3729740569837423,
+          "left": 0.3801874103418785,
+          "right": 0.3963937283703773
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 4,
+      "instance_id": 304,
+      "inference_queries": 429,
+      "trial_started": 1792751070.3282776,
+      "simulator_initialized_seconds": 3863.959720793995,
+      "elapsed_seconds": 1140.5729097750736,
+      "step_seconds": 715.8465214482276,
+      "terminated": false,
+      "truncated": true,
+      "success": false,
+      "metrics": {
+        "agent_distance": {
+          "base": 5.125921819219322,
+          "left": 44.26184698587531,
+          "right": 40.378741882606846
+        },
+        "normalized_agent_distance": {
+          "base": 5.029768480535786,
+          "left": 0.3353045796922138,
+          "right": 0.4096462452468099
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 5,
+      "instance_id": 305,
+      "inference_queries": 429,
+      "trial_started": 1792752220.987901,
+      "simulator_initialized_seconds": 5014.619344329927,
+      "elapsed_seconds": 1555.972364166053,
+      "step_seconds": 748.7306555123068,
+      "terminated": false,
+      "truncated": true,
+      "success": false,
+      "metrics": {
+        "agent_distance": {
+          "base": 9.686801869563979,
+          "left": 43.49789115671592,
+          "right": 38.65337802577778
+        },
+        "normalized_agent_distance": {
+          "base": 2.6615801940791117,
+          "left": 0.3411935522696845,
+          "right": 0.42793155074231476
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 6,
+      "instance_id": 306,
+      "inference_queries": 429,
+      "trial_started": 1792753787.8816307,
+      "simulator_initialized_seconds": 6581.513074164977,
+      "elapsed_seconds": 1138.9039561880054,
+      "step_seconds": 728.8417193341302,
+      "terminated": false,
+      "truncated": true,
+      "success": false,
+      "metrics": {
+        "agent_distance": {
+          "base": 3.640632814430319,
+          "left": 26.482872145885267,
+          "right": 34.54148793467357
+        },
+        "normalized_agent_distance": {
+          "base": 7.081790807852827,
+          "left": 0.5604074935016415,
+          "right": 0.4788734067068301
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 7,
+      "instance_id": 307,
+      "inference_queries": 429,
+      "trial_started": 1792754936.8169208,
+      "simulator_initialized_seconds": 7730.448364233947,
+      "elapsed_seconds": 1192.6558548739413,
+      "step_seconds": 729.3439346257364,
+      "terminated": false,
+      "truncated": true,
+      "success": false,
+      "metrics": {
+        "agent_distance": {
+          "base": 7.461586894282718,
+          "left": 34.67905269886296,
+          "right": 39.6690592654777
+        },
+        "normalized_agent_distance": {
+          "base": 3.4553239632919186,
+          "left": 0.42795863338235324,
+          "right": 0.41697484907071974
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 8,
+      "instance_id": 308,
+      "inference_queries": 429,
+      "trial_started": 1792756141.4871912,
+      "simulator_initialized_seconds": 8935.118634657003,
+      "elapsed_seconds": 1261.528812568984,
+      "step_seconds": 712.4596513510915,
+      "terminated": false,
+      "truncated": true,
+      "success": false,
+      "metrics": {
+        "agent_distance": {
+          "base": 14.5656387555083,
+          "left": 45.79009835246325,
+          "right": 41.243814370417
+        },
+        "normalized_agent_distance": {
+          "base": 1.7700699868208611,
+          "left": 0.32411373930149306,
+          "right": 0.40105407932066495
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 13718,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 9,
+      "instance_id": 309,
+      "inference_queries": 429,
+      "trial_started": 1792757411.4940917,
+      "simulator_initialized_seconds": 10205.125535386964,
+      "elapsed_seconds": 1229.6672177369474,
+      "step_seconds": 735.9895373149775,
+      "terminated": false,
+      "truncated": true,
+      "success": false,
+      "metrics": {
+        "agent_distance": {
+          "base": 5.977917565486315,
+          "left": 27.890504331363445,
+          "right": 37.8366045437142
+        },
+        "normalized_agent_distance": {
+          "base": 4.31290657951764,
+          "left": 0.5321237588131659,
+          "right": 0.43716924918274563
+        },
+        "q_score": {
+          "final": 0.0
+        },
+        "time": {
+          "simulator_steps": 13718,
+          "simulator_time": 457.26666666666665,
+          "normalized_time": 0.6666317976381396
+        }
+      }
+    },
+    {
+      "status": "completed",
+      "steps": 11113,
+      "video": false,
+      "renderer_memory_profile": {
+        "before": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.6000000238418579,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": null
+        },
+        "requested_texture_budget": 0.25,
+        "actual": {
+          "/rtx-transient/resourcemanager/texturestreaming/memoryBudget": 0.25,
+          "/rtx-transient/resourcemanager/texturestreaming/enabled": true
+        },
+        "viewport": {
+          "previous_updates_enabled": false,
+          "updates_enabled": false
+        },
+        "scope": "renderer texture streaming budget only; physics, scene objects, goal, model and camera resolutions unchanged",
+        "comparison_limit": "Texture mip residency may differ; not bit-identical imagery to uncapped baseline"
+      },
+      "rendering": "official renderer; no viewer camera; head RGB720, wrists RGB480",
+      "control_contract": {
+        "action_normalize": false,
+        "controllers": {
+          "base": {
+            "type": "HolonomicBaseJointController",
+            "motor_type": "velocity",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "command_input_limits": [
+              [
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                -0.75,
+                -0.75,
+                -1.0
+              ],
+              [
+                0.75,
+                0.75,
+                1.0
+              ]
+            ]
+          },
+          "trunk": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_left": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "arm_right": {
+            "type": "JointController",
+            "motor_type": "position",
+            "indices": [
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "command_input_limits": null,
+            "command_output_limits": null
+          },
+          "gripper_left": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              14
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          },
+          "gripper_right": {
+            "type": "MultiFingerGripperController",
+            "motor_type": null,
+            "indices": [
+              22
+            ],
+            "command_input_limits": [
+              [
+                -1.0
+              ],
+              [
+                1.0
+              ]
+            ],
+            "command_output_limits": [
+              [
+                0.0
+              ],
+              [
+                0.05000000074505806
+              ]
+            ]
+          }
+        },
+        "status": "passed",
+        "scope": "live controller contract and index coverage; not physical trajectory validation"
+      },
+      "trial": 10,
+      "instance_id": 310,
+      "inference_queries": 348,
+      "trial_started": 1792758653.2772694,
+      "simulator_initialized_seconds": 11446.908712756936,
+      "elapsed_seconds": 963.7598246700363,
+      "step_seconds": 590.8713734142948,
+      "terminated": true,
+      "truncated": false,
+      "success": true,
+      "metrics": {
+        "agent_distance": {
+          "base": 17.701844885085706,
+          "left": 44.87302841749624,
+          "right": 45.95029308475932
+        },
+        "normalized_agent_distance": {
+          "base": 1.4564696599348363,
+          "left": 0.330737650731265,
+          "right": 0.3599759411651343
+        },
+        "q_score": {
+          "final": 1.0
+        },
+        "time": {
+          "simulator_steps": 11113,
+          "simulator_time": 370.43333333333334,
+          "normalized_time": 0.8228970575002249
+        }
+      }
+    }
+  ],
+  "source_hashes": {
+    "/home/user/Robotic/project2/pi05-behavior/tools/batch_hotdog_actor.py": "f0b8afdbc6f3c37a5ccc967554eaa293f1813c525f15a816d7e2d131a4c8dab6",
+    "/home/user/Robotic/project2/pi05-behavior/tools/run_hotdog10.py": "94e8ef6c0745466228b8f6894994a527e9ccbc96efc33a7a3d86c243746f6a6b",
+    "/home/user/Robotic/project2/pi05-behavior/tools/batch_eval/reliable_client.py": "72cc74c15be5590de9fbe88ea9d2d6da44aec7d2c40b4ae5c192434f0b984764",
+    "/home/user/Robotic/project2/pi05-behavior/tools/batch_eval/reliable_core.py": "839f1eae3047834a126af46e4f5662f7f07857a4c00f794c4a356d37a58a39be",
+    "/home/user/Robotic/project2/pi05-behavior/tools/pi05_behavior/serve_pt50_durable.py": "20c1c4e6ddde4d25ae6ce8b3e90afd91253d764cfeb2bb12343cf4044b35b961",
+    "/home/user/Robotic/project2/pi05-behavior/tools/behavior_adapter.py": "b5c9e1a3f58184c0732bc8266f0fbb9028bc4e3dc6a1a077c3c70a4aff4501e2",
+    "/home/user/Robotic/project2/pi05-behavior/tools/behavior_eval_wrapper.py": "ab30a6f0b28ab8723ec2e8b9b0839b7d4179d3c701a050d4831105713b20663f",
+    "/home/user/Robotic/project2/pi05-behavior/tools/chunk_transport_v3.py": "3394cb6cb1e3e98e4501f5bc5af161e04ae213d6771ad809acf55f8bb01d93c1",
+    "/home/user/Robotic/project2/pi05-behavior/tools/network_images.py": "ff7d00b4f7bd107f9fd6feed369623a9c918bfb3590f83956bcbfa528f56cf7e",
+    "/home/user/Robotic/project2/pi05-behavior/tools/image_tools_pinned.py": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "/home/user/Robotic/project2/pi05-behavior/tools/wire_codec.py": "62d5a3dc89d3d9ba8b288db35b7f7da2d752d51849ad97da0f36fb271944e53c"
+  },
+  "baseline_local_source": "/home/user/Robotic/project2/pi05-behavior/runtime/pi05_hotdogs10_20261023_01",
+  "source_summary_sha256": "ccd573cb5d1b27c5d13f48e149babf06cc019cf885b5bb070d2d121739ce1528",
+  "source_configuration_sha256": "fb1fe45bf5f3e6deef00b9a958a451eff9b8801f204e9870352823fc8822c377",
+  "weights": "PT50 joint, not task-specific",
+  "source_changed_during_run": false
+}

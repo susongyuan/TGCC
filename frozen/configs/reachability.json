@@ -1,0 +1,82 @@
+{
+  "schema": "tgr.reachability.v1",
+  "enabled": true,
+  "mode": "trusted_approx_center",
+  "control_owner": "full_finetuned_pi_23D_action_expert",
+  "backbone_trainable": true,
+  "action_expert_trainable": true,
+  "lora_enabled": false,
+  "reposition_head_trained_validated": false,
+  "robot": {
+    "urdf": "data/robot/r1pro.urdf",
+    "sha256": "b0d76760cbedfbcbe1ddc280380dd5f497bbca380313bc096d7239a2c50dae61",
+    "root": "base_link",
+    "tips": {
+      "left": "left_gripper_link",
+      "right": "right_gripper_link"
+    },
+    "ik_variables": "arm-specific 7 joints; measured 4 torso joints held fixed",
+    "requires_measured_joint_names": true,
+    "requires_calibrated_arm_specific_operation_pose": false,
+    "ee_frame_calibrated_in_sim": false,
+    "target_pose": "nominal_bbox_center_world_position; orientation_free_URDF_IK"
+  },
+  "engine": {
+    "max_age": 0.5,
+    "max_skew": 0.1,
+    "max_iterations": 80,
+    "candidate_radii": [
+      0.15,
+      0.3
+    ],
+    "candidate_angles": [
+      0,
+      1.5707963267948966,
+      3.141592653589793,
+      -1.5707963267948966
+    ],
+    "candidate_yaws": [
+      0,
+      -0.25,
+      0.25
+    ],
+    "max_candidates": 12,
+    "max_translation": 0.35,
+    "max_rotation": 0.4,
+    "position_tolerance": 0.005,
+    "orientation_tolerance": 0.035,
+    "minimum_joint_margin": 0.03,
+    "minimum_manipulability": 1e-05
+  },
+  "collision": {
+    "backend": "capsule_box_and_source_gripper_spheres",
+    "verified": false,
+    "link_radius": 0.06,
+    "base_radius": 0.38,
+    "path_samples": 9,
+    "radii_source": "heuristic, not URDF collision meshes",
+    "proxy_clear_means_feasible": true,
+    "self_collision_checked": false,
+    "requires_verified_full_configuration_and_base_motion_for_authorization": true,
+    "known_semantics": "configured_model_internal_estimate",
+    "physical_verified": false,
+    "source_gripper_spheres": "reports/robot_gripper_proxy_source.json"
+  },
+  "feedback": {
+    "position_tolerance": 0.03,
+    "yaw_tolerance": 0.05,
+    "consecutive_samples": 3,
+    "max_age": 0.5,
+    "max_gap": 0.25
+  },
+  "supervision": {
+    "task_info_poses_are_oracle": true,
+    "object_pose_is_not_grasp_pose": true,
+    "distance_reachability_labels_allowed": false,
+    "missing_ik_collision_labels": "deterministic approximate features; no learned physics classifier",
+    "reposition_labels_available": false,
+    "untrained_reposition_candidate_action_enabled": false
+  },
+  "integration_status": "current/previous deterministic approximate geometry; actual CPU integration under verification",
+  "geometry_identity": "center_position_ik_capsule_box_v1"
+}
