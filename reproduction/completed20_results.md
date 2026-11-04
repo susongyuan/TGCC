@@ -107,7 +107,7 @@
 权重与本组完整结果：[Hugging Face TGCC-P](https://huggingface.co/Songyuan666/TGCC-P)；发布revision `49da0d893855227907f35c9fa8be36630f3331c5`，发布清单46个文件的大小／SHA256核验通过。
 <!-- TGCC-ADVISORY-20-20261028-end -->
 
-完整历史归档：[task_before_completed20_cleanup_20261029_145537.md](docs/experiments/task_before_completed20_cleanup_20261029_145537.md)。逐例分析：[基线与TC-π0.5](docs/experiments/pi05_TC-pi05_failure_review_20261027.md)、[TGCC实例301](runtime/tgcc_partial5708_advisory_20261028/diagnosis301/review.md)。
+完整历史归档：task_before_completed20_cleanup_20261029_145537.md（原工作区路径 `docs/experiments/task_before_completed20_cleanup_20261029_145537.md`）。逐例分析：基线与TC-π0.5（原工作区路径 `docs/experiments/pi05_TC-pi05_failure_review_20261027.md`）、TGCC实例301（原工作区路径 `runtime/tgcc_partial5708_advisory_20261028/diagnosis301/review.md`）。
 
 
 <!-- TGCC-FULL5000-20261028-start -->
