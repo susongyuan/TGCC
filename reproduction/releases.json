@@ -10,7 +10,7 @@
     "base_scope": "pi0.5-behaviour-base is unchanged50-task PT50; cook_hot_dogs/step5000 is hotdog-only fine-tuning"
   },
   "Songyuan666/TGCC-P": {
-    "revision": "16a312f0facef70c2846d3a5973b515e5f7595cc",
+    "revision": "7557599e12edfb4405f7b9904b779519da0d0dd5",
     "task": "cook_hot_dogs",
     "task_label": "hotdog",
     "weight_sha256": {
