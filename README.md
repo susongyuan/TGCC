@@ -42,6 +42,8 @@ Pin published Hub revisions for reproducibility. The service uses original32×23
 
 Latest recipe: effective batch48 (4ranks×micro4×accum3),4 real burn-in blocks and8 supervised memory blocks, corrected actual-after-minus-before targets and reference-conditioning supervision. The original planned4000 updates remain in configuration; actual2153 updates and103344 window exposures remain in metadata. Saved model/Adam/RNG continuation is retained on the owner's server; public inference artifacts do not include a resumable optimizer checkpoint.
 
+`correction_head` and `memory_probe` are training-only auxiliary loss heads; they do not directly emit online control commands. Online assistance uses trusted feedback, retrieved context and ActionExpert action generation. Triggering this path is distinct from successful recovery. The read-only [instance301 diagnosis](reproduction/diagnosis301/review.md) records64 assistance triggers and a repeated food-pickup stall; this is one case, not the complete20 result.
+
 Calibration uses16 held-out demonstration episodes, excluding public test labels. A320-step interface/native-limit preflight is separate from the20 scored trials. Scoring does not terminate a task early. Only official natural terminals enter comparison tables; infrastructure interruptions remain unknown. No videos are recorded. Fixed texture streaming budget .05 preserves resolution and physics but does not guarantee identical resident texture mips.
 
 The source includes historical experiment utilities. Training tools retain their original deployment/data assumptions; this release does not claim one-command portable training. No training or GPU benchmarking is started by these instructions.
